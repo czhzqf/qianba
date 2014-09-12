@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+.nav_div_toggle { display: block; }
+/* 钱吧介绍 */
+.qb_js { margin-bottom: 20px; width: 100%; min-width: 1200px; height: 188px;overflow: hidden; border-bottom: 1px solid#c0c1c5; background-color: #fff; }
+.qb_js_box { margin: 0 auto; width: 1200px; height: 188px; }
+.qb_js_lef { padding: 36px 0 0 15px; width: 45%; overflow: hidden; color: #535a6c; }
+.qb_js_lef dl dt { font-weight: normal;}
+.qb_js_lef dl dd { line-height: 22px;}
+.qb_js_lef dl dd a { color: #2d5aaf; }
+.qb_js_lef dl dd a:hover { color: #fc8128; }
+.qb_jy { padding: 65px 50px 0 0; }
+.qb_jy span { padding: 0 5px; }
+/* end-钱吧介绍 */
+/* 0902 重写钱吧产品 */
+.qb-entry { position: relative; margin: 0 auto; width: 1200px; overflow: hidden; }
+/* 左侧 */
+.main { width: 830px; overflow: hidden; }
+.wealth { padding: 10px; margin-bottom: 20px; width: 100%; overflow: hidden; background-color: #fff; }
+/* 钱吧三大优势 */
+.qb-safe .row { margin: -6px 0 0 0; }
+.qb-safe .row .col-md-4 { float: left; padding: 0; width: 270px; }
+.qb-safe .thumbnail { position: relative; border: none; margin-bottom: 0; margin-top: 20px;}
+.qb-safe .caption { padding: 0 0 20px  0;  text-align: center; }
+.qb-safe .caption h5 { margin-bottom: 10px; font-family: "Microsoft Yahei"; font-weight: bold; color: #666; }
+.qb-safe .caption p { color: #8c8c8c; }
+.qb-safe .thumbnail,
+.qb-safe .img-thumbnail { -webkit-box-shadow: none;  box-shadow: none; }
+
+/* end-钱吧三大优势 */
+/* 优选计划 */
+.wealth .tit { padding-left: 25px; height: 60px; line-height: 60px; border-bottom: 1px solid #eaeef1; }
+.wealth .tit span { float: right; display: block; padding: 0 20px; }
+.wealth .desc { padding: 8px 0 8px 25px; overflow: hidden; border-bottom: 1px solid #ebeef1; }
+.wealth i { font-style: normal; }
+.wealth table { margin-bottom: 0; overflow: hidden; }
+.wealth table tr:hover { background-color: #F6F7F8;
+transition: background-color 0.2s ease; }
+.wealth .table > tbody > tr > td { padding-left: 20px; border-top: none; border-bottom: 1px solid #ebeef1; }
+.wealth table.modal-01 tr td { padding: 20px 0 20px 20px; text-align: center; width: 22.5%; height: 100px; vertical-align: middle; }
+.wealth table.modal-01 tr td.month-12 { background: url(../images/yx-vip.png) no-repeat left 0; }
+.wealth table.modal-01 tr td.col-1 { text-align: left; }
+
+.wealth table.modal-01 tr td.col-2 { padding: 0; }
+.wealth table.modal-01 tr td.col-4 { width: 10%; }
+.wealth table.modal-01 tr td.col-4 a { display: inline-block; padding: 10px 0; width: 60px; height: 60px; border-radius: 50%; }
+.wealth .more { padding: 10px 0; text-align: center; } 
+/* end-优选计划 *
+/* 钱保 */
+/* 左侧 */
+.qbao_con { margin: 20px 0 0 35px; display: inline; width: 230px; height: 335px; border-radius: 2%; overflow: hidden; position: relative; background-color: #2b5aae; }
+.qbao_con h4 { margin: 0; height: 50px; line-height: 50px; text-align: center; font-size: 16px; }
+.qbao_box { margin: 0 auto; width: 228px; height: 220px; overflow: hidden; background-color: #fff; }
+.qbao_box p { line-height: 24px; text-align: center; }
+.qbao_box_top { margin: 10px auto 20px; font-size: 14px; }
+.qbao_box_top b { color: #2b5aae;  }
+.qbao_box_bottom span { padding-left: 20px; font-family: "Arial Rounded MT Bold"; }
+p.qbao_p01 { color: #2d5aaf; }
+p.qbao_p01 b { font-size: 45px; }
+p.qbao_p02 { color: #899299; }
+p.qbao_p03 { font-weight: bold; }
+.hot_ico { position: absolute; top: 0; right: 0; width: 67px; height: 67px; background: url(../images/sprite.png) no-repeat -957px 0; }
+.qbao_con_btn { position: absolute; left: 80px; bottom: 25px; width: 76px; height: 76px; line-height: 76px; text-align: center; font-size: 18px; color: #fff; background: url(../images/sprite.png) no-repeat 0 -102px; }
+.qbao_con_mid_btn { background-position: -76px -102px; }
+/* end-左侧 */
+/* end-钱保 */
+/* 散标 */
+table.sbiao tr td { height: 45px; line-height: 45px; }
+table.sbiao tr td.col-2 { vertical-align: middle; }
+table.sbiao tr td.col-1 { text-align: left; width: 140px; }
+table.sbiao tr td.col-6 { text-align: right; padding-right: 10px; width: 140px; }
+table.sbiao tr td.col-6 .btn { margin-top: 8px; }
+table.sbiao tr td.col-1 span { display: inline-block; margin-top: 8px; padding-left: 35px; width: 140px; height: 30px; line-height: 30px; background: url(../images/titbtn-bg.png) no-repeat 0 center; }
+table.zhuan tr td.col-1 span { background: url(../images/zhuan.png) no-repeat 0 center; }
+table.sbiao tr td.col-4 { font-size: 14px; font-weight: bold; color: #ff7364; }
+table.sbiao tr td.col-3 { color: #656565; }
+/* 0905 进度 */
+table.sbiao .index_table_title_000 { text-align: center; background: url(../images/0.png) 25px center no-repeat; }
+table.sbiao .index_table_title_001 { text-align: center; background: url(../images/1.png) 25px center no-repeat; }
+table.sbiao .index_table_title_002 { text-align: center; background: url(../images/2.png) 25px center no-repeat; }
+table.sbiao .index_table_title_003 { text-align: center; background: url(../images/3.png) 25px center no-repeat; }
+table.sbiao .index_table_title_004 { text-align: center; background: url(../images/4.png) 25px center no-repeat; }
+table.sbiao .index_table_title_005 { text-align: center; background: url(../images/5.png) 25px center no-repeat; }
+table.sbiao .index_table_title_006 { text-align: center; background: url(../images/6.png) 25px center no-repeat; }
+table.sbiao .index_table_title_007 { text-align: center; background: url(../images/7.png) 25px center no-repeat; }
+table.sbiao .index_table_title_008 { text-align: center; background: url(../images/8.png) 25px center no-repeat; }
+table.sbiao .index_table_title_009 { text-align: center; background: url(../images/9.png) 25px center no-repeat; }
+table.sbiao .index_table_title_010 { text-align: center; background: url(../images/10.png) 25px center no-repeat; }
+/* 散标 */
+
+/* end-左侧 */
+
+/* 右侧 */
+.right-slider { width: 350px; overflow: hidden; }
+/* 钱吧宣传片 CCTV */
+.vedio { padding:0; position: relative; height: 205px; overflow: hidden; background: url(../images/qbxc.jpg) no-repeat center center; }
+.qb-cctv { background: url(../images/revdio.jpg) no-repeat center center; }
+.vedio a { display: block; width: 350px; height: 205px; }
+.vedio a img { position: absolute; top: 35%; left: 42%; transition: 1s; -moz-transition: 1s; -webkit-transition: 1s; -o-transition: 1s;}
+.vedio a:hover img { transform: scale(1.2); -webkit-transform: scale(1.2);}
+.vedio span { display: inline-block; position: absolute; bottom: 0; left: 0; text-align: center; width: 350px; height: 30px; background-color: #fff; opacity: 0.5; filter:alpha(opacity=50); }
+/* end-钱吧宣传片 CCTV */
+/* 新闻资讯 */
+.articles .tit { margin-top: -10px; height: 50px; line-height: 50px; }
+.articles .tit span { float: right; display: block; padding: 0 20px; font-size: 12px; border-left: 1px solid #ebeef1; }
+.articles ul { padding: 15px 0 15px 20px; }
+.articles ul li { margin-top: 10px; }
+.articles ul li span { float: right; padding-right: 10px; }
+.articles ul li a { display: inline-block; padding-right: 20px; color: #717171; }
+.articles ul li a:hover { color: #fc8128; }
+/* end-新闻资讯 */
+/* end-右侧 */
+/* end-0902 重写钱吧产品 */
+/* 底部-媒体报道 */
+.bottom_mt { margin: 0 auto 20px; width: 1200px; height: 170px; overflow: hidden; background-color: #fff; }
+.bottom_mt .tit { padding-left: 25px; height: 59px; line-height: 59px; border-bottom: 1px solid #eaeef1; font-size: 18px; color: #6b6b6b; }
+.bottom_mt .tit span { float: right; display: block; padding: 0 20px; font-size: 12px; border-left: 1px solid #ebeef1; }
+.bottom_mt ul {overflow: hidden;height: 30px;margin-top: 30px; }
+.bottom_mt ul li { float: left; padding: 0 30px; height: 30px; }
+
+/* end-底部 */
+/* 0822 预约加入 */
+.index-yuyue-lef { height: 392px; overflow: hidden; }
+.index-yuyue-lef p.tit { padding: 8px 0 8px 25px; overflow: hidden; border-bottom: 1px solid #ebeef1; }
+.index-yuyue-lef table tr.tr_hover { text-align: left; }
+.index-yuyue-lef table tr.tr_hover td { width: 25%; height: 100px; vertical-align: middle; }
+.index-yuyue-lef table tr.tr_hover td.text-rig { padding-right: 20px; width: 80px; }
+
+
+.index-yuyue-lef table tr.tr_hover td b { font-weight: normal; }
+.index-yuyue-lef table tr.tr_hover td i { font-style: normal; margin-left: 5px; }
+.index-yuyue-lef table tr.tr_hover td.text-rig { width: 10%; text-align: left; padding: 25px 0; }
+.index-yuyue-lef table tr.tr_hover td.text-rig a { display: inline-block; padding: 10px 0; width: 60px; height: 60px; border-radius: 50%; }
+/* end-0822 预约加入 */
+
+/* 添加提示 */
+.youxuan { position: relative; }
+.youxuan-tip12{position: absolute; top: 104px;left: 430px;width: 110px;height: 100px;cursor: pointer;/*background-color: red;*/}
+.youxuan-tip3{position: absolute; top: 222px;left: 430px;width: 110px;height: 100px;cursor: pointer;/*background-color: red;*/}
+.youxuan-tip12 p{ display:none; text-align: left; background-color: #fff; padding: 5px; width: 339px; position: absolute; top: -15px; left: -102px; border-radius: 3px; border: 1px solid #ccc; line-height: 1.4;}
+.youxuan-tip12:hover p{display:block;-webkit-animation:fadeIn 0.3s ease-in-out;animation:fadeIn 0.3s ease-in-out;}
+.youxuan-tip3:hover p{display:block;-webkit-animation:fadeIn 0.3s ease-in-out;animation:fadeIn 0.3s ease-in-out;}
+.youxuan-tip12 p:before{position: absolute;content: '';width: 0;height: 0;border: transparent solid 8px;border-top-color: #ccc;left: 125px;bottom: -16px;}
+.youxuan-tip12 p:after{position: absolute;content: '';width: 0;height: 0;border: transparent solid 8px;border-top-color: #fff;left: 125px;bottom: -15px;}

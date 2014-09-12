@@ -1,0 +1,542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9, IE=8, chrome=1">
+    <title>钱吧</title>
+    <meta name="keywords" content="钱吧, 钱吧网, 网络投融资平台, 网络理财, 互联网投资, 固定收益, 100%本息保障, 钱吧官方, www.51qianba.com" />
+    <meta name="description" content="钱吧网为您提供安全可靠、资金透明的互联网投资服务：50元即可投资，线上投资线下审核，多重安全保障！" />
+    <meta name="author" content="青岛钱吧金融信息服务有限公司" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<!--@ bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/master.css" />
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/optimize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/about.css"/>
+
+    <script type="text/javascript">
+		var environment = {
+			userVo : '',
+			role : '',
+			userId : '',
+			basePath : '',
+			userCash : '',
+			globalPath : ''
+		};
+	</script>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- yooli -->
+    <script type="text/javascript" src="js/global-1.1.0.min.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/guide.js"></script>
+    
+    <!-- 微信浮窗 -->
+    <script type="text/javascript" src="js/js.js"></script> 
+    <!-- right-slider 自适应 -->
+	<script type="text/javascript" src="js/slider.js"></script>
+</head>
+
+<body>
+	<!-- 网站公告 -->
+	<div class="bs-example top-alert top-alert">
+        <div class="alert alert-warning fade in" role="alert">
+          <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+          网站公告：系统将于2014-07-31至2014-08-03服务器升级，届时网站关闭4天。
+        </div>
+      </div>
+  	 <!--@ 网站公告 -->
+	<!-- head -->
+    <div class="head_top">
+        <div class="head_top_box">
+          <p class="fl head_top_tel color_bai">服务热线：<span class="font_14 color_huang" >400-626-5178</span></p>
+          <div class="fr head_top_nav">
+          	<a href="hbao.html" class="color_bai color_bai_hover task-ico" title="活动专区" >活动专区<i></i></a>
+            <a style="display: block;" href="create.html" class="color_bai color_bai_hover" title="立即注册" >立即注册</a>
+            <a href="login.html" style="display: block;" class="cor_ff6602 color_bai color_bai_hover" title="立即登录" data-toggle="modal" data-target="#myModal">立即登录</a>
+            <a style="display: none;" href="#" class="color_bai color_bai_hover" title="欢迎您" >欢迎您</a>
+            <a style="display: none;" href="#" class="color_bai color_bai_hover" title="转角光阴" >转角光阴<span>0</span></a>
+            <a  class="color_bai color_a_hover" href="#" title="关于我们" >关于我们</a>
+            <a class="color_bai color_a_hover" href="#help-mcjs.html" title="帮助中心" >帮助中心</a>
+            <a style="display: blcok;" class="color_bai color_a_hover" href="login.html" title="退出" >退出</a>
+        </div>
+     </div>
+    </div>
+    
+    <div class="head_bottom">
+        <div class="head_bottom_box ">
+          <div class="fl"><a href="index.html" title="钱吧" ><img src="images/logo.png" alt="钱吧"/></a></div>
+          <div class="fr btn-group head_bottom_nav">     
+            <!-- 0613 修改 -->
+            <ul>
+                <li class="nav_dropdown">
+                	<a class="font_14 color_333 color_a_hover" href="index.html">首页</a>
+               </li>
+                <li class="nav_dropdown">
+                    <a id="nav_a" class="font_14 color_333 color_a_hover">我要投资</a>
+                    <div id="nav_div" class="nav_dropdown_div" >
+                        <a class="font_14 color_333 color_a_hover" href="optimize_yud.html">优选计划</a>
+                        <a class="font_14 color_333 color_a_hover" href="qbao.html">钱保投资</a>
+                        <a class="font_14 color_333 color_a_hover" href="list_sanbiao.html">散标投资</a>
+                        <a class="font_14 color_333 color_a_hover" href="list_sanbiao.html">债权转让</a>
+                   </div>
+                </li>
+                <li><a class="font_14 color_333 color_a_hover" href="jiekuan-sq.html">我要借款</a></li>
+                <li><a class="font_14 color_333 color_a_hover" href="guide.html">新手指引</a></li>
+                <li><a class="font_14 color_333 color_a_hover" href="admin/admin-index.html">我的钱吧</a></li>
+            </ul> 
+          </div>
+        </div>
+    </div>
+    
+	 <!--@ head -->
+     
+    <!-- banner幻灯 -->
+   <div class="feat-area">
+      <ul class="slider" id="slider">
+        <li data-opacity="0.2" style="background:#61c3f2 url(images/banner/banner05.jpg) no-repeat center center"><a href="#">钱吧新手任务</a></li>
+        <li data-opacity="0.2" style="background:#61c3f2 url(images/banner/banner01.jpg) no-repeat center center"><a href="#">钱吧新手任务</a></li>
+        <li data-opacity="0.2" style="background:#024492 url(images/banner/banner02.jpg) no-repeat center center"><a href="#">钱吧APP上线</a></li>	
+        <li data-opacity="0.2" style="background:#096d2f url(images/banner/banner03.jpg) no-repeat center center"><a href="#">安全投资</a></li>
+        <li data-opacity="0.2" style="background:#0d0e3c url(images/banner/banner04.jpg) no-repeat center center"><a href="#">引领O2O新模式</a></li>
+      </ul>
+        
+        <div class="gain" id="userGain">
+          <div class="gain-cont">
+            <h2>钱吧年化收益率</h2>
+            <p class="fl">30 倍活期存款收益<br /><span class="font_14">钱吧年化收益率高达:</span></p>
+            <p class="fr font_Arial font_36 color_huang" style="padding-top: 15px;">14%</p>
+            <p class="reg"><a class="color_bai color_bai_hover" href="#" style=" display: block;">立即注册</a><a class="color_cheng color_a_hover" style="display: none;" href="#">我的钱吧</a></p>
+            <p class="tar" style=" display: block;">已有账号 <a class="color_bai color_bai_hover" href="#">立即登录</a></p>
+            <p class="tar" style=" display: none;"><a class=" color_bai color_a_hover" href="#">充值</a>&nbsp;&nbsp;<a class=" color_bai color_a_hover" href="#">投资</a></p> 
+        </div>
+        <div class="opacity"></div>
+       </div>
+	</div>
+
+    <!--@ banner幻灯 -->
+    
+    <!-- 钱吧介绍 -->
+	<div class="qb_js">
+    	<div class="qb_js_box">
+        	<div class="fl qb_js_lef">
+            	<dl>
+               	  <dt class="color_hei222 font_14">什么是钱吧</dt>
+                  <dd class="color_hei666">“钱吧”将成为您互联网金融理财生活的重要组成。<br />
+“钱吧”是确保投资人与借款人零风险对接的第三方服务平台。<br />
+“钱吧”利用互联网技术让投资人接触更多投资项目，了解更多项目信息，获取更多投资分红。<br />
+&nbsp;最后，“钱吧”是一群来自银行、国有企业、证券公司的专业团队<a class="font_12" href="#" title="更多" >&nbsp; 更多......</a></dd>
+                </dl>
+            </div>
+          <div class="fr qb_jy" >在钱吧完成了<span class="color_lan font_36 font_Arial">231</span>笔债权转让&nbsp;&nbsp;总交易额度<span class="color_lan font_36 font_Arial" id="data2">123,123,563.00</span>元</div>
+        </div>
+    </div>
+    <!--@ 钱吧介绍 -->
+    <!-- 0902 重写钱吧产品 --> 
+    <div class="qb-entry">
+    	<div class="fl main">
+        	<!-- 钱吧三大优势 -->
+            <div class="wealth qb-safe">
+            	<div class="row">
+                  <div class="col-md-4">
+                    <div class="thumbnail sc_service_item sc_service_item_2" >
+                      <a class="sc_service_item_link" href="article-aqlc.html" title="" >
+                        <span class="sc_service_icon"></span>
+                        <span class="sc_service_item_bg"></span>
+                      </a>
+                      <div class="caption">
+                        <h5>安全投资专家</h5>
+                        <p>专业的第三方支付监管，资金安全透明</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-4">
+                    <div class="thumbnail sc_service_item sc_service_item_1">
+                      <a class="sc_service_item_link" href="article-licai.html" title="" >
+                        <span class="sc_service_icon"></span>
+                        <span class="sc_service_item_bg"></span>
+                      </a>
+                      <div class="caption">
+                        <h5>高收益低门槛</h5>
+                        <p>8-16%高收益，收益乐翻天 </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-4">
+                    <div class="thumbnail sc_service_item sc_service_item_3">
+                      <a class="sc_service_item_link" href="article-o2o.html" title="" >
+                        <span class="sc_service_icon"></span>
+                        <span class="sc_service_item_bg"></span>
+                      </a>
+                      <div class="caption">
+                        <h5>引领O2O新模式</h5>
+                        <p>线上投资与线下债权审核相结合</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+            </div>
+            <!--@ 钱吧三大优势 -->
+            
+            <!-- 优选 -->
+            <div class="wealth youxuan">
+            	<div class="tit font_18 color_hei222"><span class="font_12"><a class=" color_lan color_a_hover" href="#" title="了解加入规则" >了解加入规则</a></span>优选计划</div>
+                <div class="desc">风险备用金100%本息保障，每月还本付息，本金复投，锁定期后随时赎回，每工作日17:00更新</div>
+                <table class="table modal-01">
+                  <tbody>
+                      <tr>
+                        <td class="col-1 month-12"><b class="font_20">109-12</b><i>&nbsp;期</i></td>
+                        <td class="col-2"><span class=" font_Arial font_45 color_cheng">13~14</span><i>%</i><br /><p>年化收益率</p></td>
+                        <td><span class=" font_Arial font_45 color_hei222">12</span><i>个月</i><br />锁定期</td>
+                        <td><span class=" font_Arial font_20 color_hei222" style="display: inline-block; padding-top: 28px;">50000</span><i>元</i><br /><span style="display: inline-block; padding-top: 8px;">起投金额</span></td>
+                        <td class="col-4"><a href="admin/admin-yuyue.html" class="btn btn_lv btn_wid75_lv">预约<br />加入</a></td>
+                      </tr>
+                      <tr>
+                        <td class="col-1"><b class="font_20">109-3</b><i>&nbsp;期</i></td>
+                        <td class="col-2"><span class=" font_Arial font_45 color_cheng">10~11</span><i>%</i><br />年化收益率</td>
+                        <td><span class=" font_Arial font_45 color_hei222">3</span><i>个月</i><br />锁定期</td>
+                        <td><span class=" font_Arial font_20 color_hei222" style="display: inline-block; padding-top: 28px;">1000</span><i>元</i><br /><span style="display: inline-block; padding-top: 8px;">起投金额</span></td>
+                        <td class="col-4"><a href="admin/admin-yuyue.html" class="btn btn_lv btn_wid75_lv">预约<br />加入</a></td>
+                      </tr>
+                  </tbody>
+                </table>
+                <div class="clb more color_hei666"><a class="color_a_hover" href="#" title="查看往期优选">查看往期优选</a></div>
+                <div class="youxuan-tip12"><p>12个月锁定期内，不得退出本期优选，每月获得收益,本金自动复投。12个月锁定期后，可随时退出本期优选，赎回本金。</p></div>
+                <div class="youxuan-tip12 youxuan-tip3"><p>3个月锁定期内，不得退出本期优选，每月获得收益,本金自动复投。3个月锁定期后，可随时退出本期优选，赎回本金。</p></div>
+            </div>
+            <!--@ 优选 -->
+            <!-- 钱保 -->
+            <div class="wealth">
+            	<div class="tit font_18 color_hei222"><span class="font_12"><a class=" color_lan color_a_hover" href="#" title="了解加入规则" >了解加入规则</a></span>钱保投资</div>
+                <div class="desc">风险备用金100%本息保障，每月还本付息，本金复投，锁定期后随时赎回，每工作日17:00更新</div>
+                <div class="fl qbao_con">
+                    <h4 class="color_bai">月月赚</h4>
+                    <div class="qbao_box">
+                        <p class="qbao_box_top"><b class="font_Arial font_14">304</b><br />人次经加入</p>
+                        <div class="qbao_box_bottom">
+                            <p class="qbao_p01 font_14"><b class="font_Arial">9</b>&nbsp;%<span><font>1</font>个月</span></p>
+                            <p class="qbao_p02">年华收益率<span>期限</span></p>
+                            <p class="qbao_p03 color_lv">100%本息保障</p>
+                        </div>
+                    </div>
+                    <div class="hot_ico"></div>
+                    <div class="qbao_con_btn"><a class="color_bai color_a_hover" href="#" title="" target="_blank">加入</a></div>
+                 </div>
+                 
+                 <div class="fl qbao_con">
+                    <h4 class="color_bai">季度红</h4>
+                    <div class="qbao_box">
+                        <p class="qbao_box_top"><b class="font_Arial font_14">304</b><br />人次经加入</p>
+                        <div class="qbao_box_bottom">
+                            <p class="qbao_p01 font_14"><b class="font_Arial">9</b>&nbsp;%<span><font>3</font>个月</span></p>
+                            <p class="qbao_p02">年华收益率<span>期限</span></p>
+                            <p class="qbao_p03 color_lv">100%本息保障</p>
+                        </div>
+                    </div>
+                    <div class="qbao_con_btn qbao_con_mid_btn"><a class="color_bai color_a_hover" href="#" title="" target="_blank">满额</a></div>
+                 </div>
+                 
+                 <div class="fl qbao_con">
+                    <h4 class="color_bai">半年盈</h4>
+                    <div class="qbao_box">
+                        <p class="qbao_box_top"><b class="font_Arial font_14">304</b><br />人次经加入</p>
+                        <div class="qbao_box_bottom">
+                            <p class="qbao_p01 font_14"><b class="font_Arial">9</b>&nbsp;%<span><font>6</font>个月</span></p>
+                            <p class="qbao_p02">年华收益率<span>期限</span></p>
+                            <p class="qbao_p03 color_lv">100%本息保障</p>
+                        </div>
+                    </div>
+                    <div class="qbao_con_btn"><a class="color_bai color_a_hover" href="#" title="" target="_blank">加入</a></div>
+                 </div>
+                 <div class="clb more"><a class="color_a_hover" href="#" title="" >查看更多钱保投资</a></div>
+            </div>
+            <!-- @ 钱保 -->
+            <!-- 散标投资 -->
+            <div class="wealth">
+            	<div class="tit font_18 color_hei222"><span class="font_12"><a class=" color_lan color_a_hover" href="#" title="了解加入规则" >了解加入规则</a></span>散标投资</div>
+                <div class="desc">风险备用金100%本息保障，每月还本付息，本金复投，锁定期后随时赎回，每工作日17:00更新</div>
+                <table class="table sbiao">
+                  <tr class="thead">
+                    <td class="col-1" >借款标题</td>
+                    <td>信用等级</td>
+                    <td>年利率</td>
+                    <td>金额</td>
+                    <td>期限</td>
+                    <td style="width: 80px; text-align: center;">进度</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr class="tr_hover">
+                    <td class="col-1"><span><a class="color_a_hover" href="#" title="散标投资" >散标投资</a></span></td>
+                    <td class="col-2"><img src="images/dengji-ico/AA.png" alt="" />
+                    <td class=" font_Arial font_14 col-3">7%</td>
+                    <td class=" font_Arial font_14 col-4">112,353,11</td>
+                    <td>12个月</td>
+                    <td class="index_table_title_000"><span>0%</span></td>
+                    <td class="col-6"><button type="button" class="btn btn_lv btn_wid75_lv">加入</button></td>
+                  </tr>
+                  <tr class="tr_hover">
+                    <td class="col-1"><span><a class="color_a_hover" href="#" title="散标投资" >散标投资</a></span></td>
+                    <td class="col-2"><img src="images/dengji-ico/AA.png" alt="" />
+                    <td class=" font_Arial font_14 col-3">7%</td>
+                    <td class=" font_Arial font_14 col-4">112,353,11</td>
+                    <td>12个月</td>
+                    <td class="index_table_title_010"><span>100%</span></td>
+                    <td class="col-6"><button type="button" class="btn btn_lv btn_wid75_lv">加入</button></td>
+                  </tr>
+                  <tr class="tr_hover">
+                    <td class="col-1"><span><a class="color_a_hover" href="#" title="散标投资" >散标投资</a></span></td>
+                    <td class="col-2"><img src="images/dengji-ico/AA.png" alt="" />
+                    <td class=" font_Arial font_14 col-3">7%</td>
+                    <td class=" font_Arial font_14 col-4">112,353,11</td>
+                    <td>12个月</td>
+                    <td class="index_table_title_010"><span>100%</span></td>
+                    <td class="col-6"><button type="button" class="btn btn_lv btn_wid75_lv">加入</button></td>
+                  </tr>
+                </table>
+                <div class="clb more"><a class="color_a_hover" href="#" title="" >查看更多散标投资</a></div>
+            </div>
+            <!--@ 散标投资 -->
+            <!-- 债权转让 -->
+            <div class="wealth">
+            	<div class="tit font_18 color_hei222"><span class="font_12"><a class=" color_lan color_a_hover" href="#" title="了解加入规则" >了解加入规则</a></span>债权转让</div>
+                <div class="desc">风险备用金100%本息保障，每月还本付息，本金复投，锁定期后随时赎回，每工作日17:00更新</div>
+                <table class="table sbiao zhuan">
+                  <tr class="thead">
+                    <td class="col-1" >借款标题</td>
+                    <td>信用等级</td>
+                    <td>年利率</td>
+                    <td>金额</td>
+                    <td>期限</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr class="tr_hover">
+                    <td class="col-1"><span><a class="color_a_hover" href="#" title="债权转让" >债权转让</a></span></td>
+                    <td class="col-2"><img src="images/dengji-ico/AA.png" alt="" />
+                    <td class=" font_Arial font_14 col-3">7%</td>
+                    <td class=" font_Arial font_14 col-4">112,353,11</td>
+                    <td>12个月</td>
+                    <td class="col-6"><button type="button" class="btn btn_lv btn_wid75_lv">加入</button></td>
+                  </tr>
+                  <tr class="tr_hover">
+                    <td class="col-1"><span><a class="color_a_hover" href="#" title="债权转让" >债权转让</a></span></td>
+                    <td class="col-2"><img src="images/dengji-ico/AA.png" alt="" />
+                    <td class=" font_Arial font_14 col-3">7%</td>
+                    <td class=" font_Arial font_14 col-4">112,353,11</td>
+                    <td>12个月</td>
+                    <td class="col-6"><button type="button" class="btn btn_lv btn_wid75_lv">加入</button></td>
+                  </tr>
+                  <tr class="tr_hover">
+                    <td class="col-1"><span><a class="color_a_hover" href="#" title="债权转让" >债权转让</a></span></td>
+                    <td class="col-2"><img src="images/dengji-ico/AA.png" alt="" />
+                    <td class=" font_Arial font_14 col-3">7%</td>
+                    <td class=" font_Arial font_14 col-4">112,353,11</td>
+                    <td>12个月</td>
+                    <td class="col-6"><button type="button" class="btn btn_lv btn_wid75_lv">加入</button></td>
+                  </tr>
+                </table>
+                <div class="clb more"><a class="color_a_hover" href="#" title="" >查看更多债权转让</a></div>
+            </div>
+            <!--@债权转让 -->
+        	
+        </div>
+        <!-- 右侧 -->
+        <div class="fr right-slider">
+        	<!-- 钱吧宣传片 -->
+            <div class="wealth vedio">
+                <a href="#" title="钱吧宣传视频"><img src="images/player.png" /></a>
+                <span class="font_18 color_hei222">钱吧宣传视频</span>
+            </div>
+            <!--@ 钱吧宣传片 -->
+            <!-- 新闻资讯 -->
+            <div class="wealth articles">
+                <div class="tit"><span><a class="color_a_hover" href="#" title="更多" >更多</a></span><a class="color_6b6b6b color_a_hover font_18" href="#" title="新闻资讯">新闻资讯</a></div>
+                <ul>
+                    <li><span class="fr font_12">07-05</span><a class="color_a_hover cur" href="#" title="" >开心财富—守护希望，爱心无疆</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >关于开展开心财富“诚信之星”评选活动的通知</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >中国人必读的15条投资忠告</a></li>
+                    <li><span class="fr font_12 color_lan">07-05</span><a class="color_a_hover" href="#" title="" >开心财富—守护希望，爱心无疆</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >关于开展开心财富“诚信之星”评选活动的通知</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >中国人必读的15条投资忠告</a></li>
+                </ul>
+            </div>
+            <!--@ 新闻资讯 -->
+            <!-- 官方公告 -->
+            <div class="wealth articles">
+                <div class="tit"><span><a class="color_a_hover" href="#" title="更多" >更多</a></span><a class="color_6b6b6b color_a_hover font_18" href="#" title="官方公告">官方公告</a></div>
+                <ul>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >开心财富—守护希望，爱心无疆</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >关于开展开心财富“诚信之星”评选活动的通知</a></li>					<li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >开心财富—守护希望，爱心无疆</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >关于开展开心财富“诚信之星”评选活动的通知</a></li>					<li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >开心财富—守护希望，爱心无疆</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >关于开展开心财富“诚信之星”评选活动的通知</a></li>
+                </ul>
+            </div>
+            <!--@ 官方公告 -->
+            
+            <!-- 钱吧CCTV -->
+            <div class="wealth vedio qb-cctv">
+                <a href="#" title="钱吧宣传视频"><img src="images/play.png" /></a>
+            </div>
+            <!--@ 钱吧CCTV -->
+            <!-- 活动专区 -->
+            <div class="wealth articles">
+                <div class="tit"><span><a class="color_a_hover" href="#" title="更多" >更多</a></span><a class="color_6b6b6b color_a_hover font_18" href="#" title="活动专区">活动专区</a></div>
+                <ul>
+                    <li><a class="color_a_hover" href="#" title="咖啡活动" ><img src="images/hdon.jpg" style="width: 295px; height: 100px;" /></a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >关于开展开心财富“诚信之星”评选活动的通知</a></li>
+                </ul>
+            </div>
+            <!--@ 活动专区 -->
+            <!-- 行业资讯 -->
+            <div class="wealth articles">
+                <div class="tit"><span><a class="color_a_hover" href="#" title="更多" >更多</a></span><a class="color_6b6b6b color_a_hover font_18" href="#" title="行业资讯">行业资讯</a></div>
+                <ul>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >开心财富—守护希望，爱心无疆</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >关于开展开心财富“诚信之星”评选活动的通知</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >开心财富—守护希望，爱心无疆</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >关于开展开心财富“诚信之星”评选活动的通知</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >开心财富—守护希望，爱心无疆</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >关于开展开心财富“诚信之星”评选活动的通知</a></li>
+                    <li><span class="fr">07-05</span><a class="color_a_hover" href="#" title="" >关于开展开心财富“诚信之星”评选活动的通知</a></li>
+                </ul>
+            </div>
+            <!--@ 行业资讯 -->
+            
+            
+            
+        </div>
+        <!-- end-右侧 -->
+    </div>
+   <!--@ 0902 重写钱吧产品 -->
+    
+     <!-- 媒体报道 -->
+	<div class="clb bottom_mt">
+    	<div class="tit"><span><a class="color_a_hover" href="#" title="更多" >更多</a></span>媒体报道</div>
+        <ul>
+          <li><a href="Services/Media.aspx" title="网易财经" ><img src="images/meiti/xinhuawang.jpg" alt="网易财经" /></a></li>
+            <li><a href="Services/Media.aspx" title="搜狐视频" ><img src="images/meiti/mt_ico01.jpg" alt="搜狐视频" /></a></li>
+            <li><a href="Services/Media.aspx" title="新浪科技" ><img src="images/meiti/sinacaijing.jpg" alt="新浪科技" /></a></li>
+            <li><a href="Services/Media.aspx" title="东方财富网" ><img src="images/meiti/tx-ico.jpg" alt="东方财富网" /></a></li>
+            <li><a href="Services/Media.aspx" title="腾讯财经" ><img src="images/meiti/chinacaijing.jpg" alt="腾讯财经" /></a></li>      
+            <li><a href="Services/Media.aspx" title="网易财经" ><img src="images/meiti/mt_ico06.jpg" alt="网易财经" /></a></li>
+            <li><a href="Services/Media.aspx" title="搜狐视频" ><img src="images/meiti/21caijing.jpg" alt="搜狐视频" /></a></li>
+        </ul>
+    </div>
+    <!--@ 媒体报道 -->
+    
+    
+    <!-- footer -->
+	<div class="foot">
+     <div class="foot_box">
+       <div class="fl foot_box_lef">
+       	 <p class="foot_nav">
+                <a class="color_a_hover" href="#" title="首页" >首页</a>
+                <a class="color_a_hover" href="#" title="钱吧介绍" >钱吧介绍</a>
+                <a class="color_a_hover" href="#" title="新手指引" >新手指引</a>
+                <a class="color_a_hover" href="#" title="钱吧CEO" >钱吧CEO</a>
+                <a class="color_a_hover" href="#" title="帮助中心" >帮助中心</a>
+                <a class="color_a_hover" href="#" title="联系我们" >联系我们</a>
+         </p>
+            
+            <div class="clb cabout"><h2>关注我们</h2>
+            	<ul>
+                    <li><a href="#"  class="weibo hovereffect" rel="nofollow" title="关注微博"><i class="icons">钱吧网官方新浪微博</i></a></li>
+                    <li><a href="javascript:;" class="weixin hovereffect" rel="nofollow" title="扫描微信"><i class="icons">钱吧网官方微信</i></a></li>
+                </ul>
+                <h2 class="app-lf" style="display:block">手机上钱吧</h2>
+                <ul style="display:block">
+                    <li><a href="#"  class="ios hovereffect" rel="nofollow"><i class="icons"></i></a></li>
+                    <li><a href="#" class="android hovereffect" rel="nofollow"><i class="icons"></i></a></li>
+					<li><a id="qq" title="在线交谈" class="qq hovereffect" rel="nofollow"><i class="icons"></i></a>
+                    	<script charset="utf-8" src="http://wpa.b.qq.com/cgi/wpa.php"></script>   
+                        <script type="text/javascript">
+                            BizQQWPA.addCustom({aty: '0', a: '0', nameAccount: 4006265178, selector: 'qq'});
+                        </script>
+                    </li>
+                </ul>
+            </div>
+       </div>
+       <div class="fr foot_box_rig">
+            <p>客服热线（工作时间 8:00-22:00）<br /><span class="font_Arial">400-626-5178</span></p>
+       </div>
+     </div>
+    </div>
+    <!--@ footer -->
+    
+    <!-- footer_bottom -->
+    <div class="clb foot_bottom">
+    	<div class="foot_bottom_box">
+        	<ul class="ibelieve">
+                <li class="it1"><a href="#" title="可信网站" target="_blank"><img src="images/renzheng/icon1.jpg" alt="可信网站" /></a> </li>
+                <li class="it2"><a href="#" title="安全联盟官网认证" target="_blank"><img src="images/renzheng/icon2.jpg" alt="安全联盟官网认证" /></a> </li>
+                <li class="it3"><a href="#" title="360网站安全监测" target="_blank"><img src="images/renzheng/icon3.jpg" alt="360网站安全监测" /></a> </li>
+                <li class="it4"><a href="#" title="NORTON" target="_blank"><img src="images/renzheng/icon4.jpg" alt="NORTON" /></a></li>
+                <li class="it5"><a href="#" title="认证联盟" target="_blank"><img src="images/renzheng/icon5.jpg" alt="认证联盟" /></a> </li>
+                <li class="it5"><a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1097967874" title="企业信用评级证书" target="_blank"><img src="images/renzheng/icon6.jpg" alt="企业信用评级证书" /></a> </li>
+              </ul>
+        	<p class="clb bottom_box_link">友情链接：<a class="color_a_hover" href="#" title="开心财富" >开心财富</a>|<a class="color_a_hover" href="#" title="开心E贷" >开心E贷</a>|<a class="color_a_hover" href="#" title="汇付天下" >汇付天下</a>|<a class="color_a_hover" href="#" title="国培机构" >国培机构</a>|<a class="color_a_hover" href="#" title="网贷帮" >网贷帮</a>|<a class="color_a_hover" href="#" title="网贷之家" >网贷之家</a></p>
+            <p>Copyright©2012-2014 钱吧. All Rights Reserved.鲁ICP备14003761</p>
+        </div>
+    </div>
+    <!--@ footer_bottom -->
+    
+    <!-- 浮窗代码开始 -->
+    <!--<div class="right_slide">-->
+    <!-- 在线qq -->
+	<script charset="utf-8" src="http://wpa.b.qq.com/cgi/wpa.php"></script>
+    <div id="online">
+    	<p>钱吧在线QQ交谈</p>
+    </div>
+    <script type="text/javascript">
+    	BizQQWPA.addCustom({aty: '0', a: '0', nameAccount: 4006265178, selector: 'online'});
+    </script>
+    <!--@ 在线qq -->
+    <div id="code"></div>
+    <div id="code_img"></div>
+    <a id="gotop" href="javascript:void(0)"></a>
+   <!-- </div>-->
+    <!-- 代码结束 -->
+
+	<!-- 登录弹窗Modal -->
+	<div id="myModal" class="modal fade" role="dialog" aria-hidden="true" >
+    	<div class="modal-dialog">
+        	<div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button></div>
+                    <div class="modal-body">
+                        <div class="fl log_lef">
+                        	<p class="wx_tit">扫描微信，关注我们</p>
+                            <div class="wx"><img src="images/qb_weixin.jpg" alt="" /></div>
+                            <p class="sm">打开微信扫描二维码</p>
+                        </div>
+                        <div class="fl log_rig">
+                            <p class="log_tit">账户登录</p>
+                            <input class="text name" name="name" type="text" value="用户名/手机号/邮箱" />
+                            <input class="text pass" name="pass" type="text" value="密码" />
+                            <input name="submit" type="submit" class="btn btn_lv btn_wid75_lv submit" value="登 录" />
+                        </div>	
+                    </div>
+                    <div class="modal-footer">
+                    	<p><a href="#" title="">忘记密码？</a>|<a href="#" title="">注册新账号</a>|<a href="#" title="">帮助中心</a></p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--@ 登录弹窗Modal -->    
+        
+	<script type="text/javascript">
+    	$(document).ready(function() {
+		  <!-- 下拉菜单 -->
+          $("#nav_a").click(function(){$("#nav_div").toggle();});
+        });
+		<!-- right-slider 自适应 -->
+		$(function() {
+			fixedSidebar();
+		});
+	  <!--@ right-slider 自适应 -->
+    </script>
+</body>
+</html>

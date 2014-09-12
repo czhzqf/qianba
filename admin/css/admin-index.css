@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* admin 首页 */
+.admin-nav { clear: both; position: relative; margin: 0 auto; width: 1200px; height: 50px; border-top-left-radius:5px; border-top-right-radius: 5px; background-color: #2d5aaf; }
+.admin-nav h5 { display: block; width: 200px; height: 50px; text-align: center; line-height: 50px; border-right: 1px solid #e3e3e3; }
+.admin-nav ul { display: block; padding-top: 20px; overflow: hidden; }
+.admin-nav ul li { float: left; height: 20px; line-height: 20px; font-size: 14px; }
+.admin-nav ul li.admin-nav-line { padding: 0 15px; width: 1px; color: #fff; }
+.admin-nav ul li i.mt-arrow { position: absolute; bottom: 0; left: 223px; width: 0; height: 0; border-width: 6px; border-color: #2d5aaf #2d5aaf #fff; border-style: solid; }
+.admin-nav span { display: block; padding: 16px 50px 0 0; }
+.admin-main { margin: 0 auto 50px; width: 1200px; overflow: hidden; background: #fff url(../images/main_bg.png) repeat-y;}
+/* 左侧导航 */
+.admin-main-lef { position: relative; width: 197px; margin-left: 1px; background-color: #f3f4f6; } 
+dl.admin-ico { overflow: hidden; }
+dl.admin-ico dt { float: left; padding: 30px 10px 10px 20px; }
+dl.admin-ico dt img { width: 65px; height: 65px;  border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; background-color: #ccc; border: 1px solid #b2c6c6;}
+dl.admin-ico dd.username { padding: 40px 0 10px; }
+dl.admin-ico dd.ico span { display: inline-block; margin: 15px 5px 0 0; width: 22px; height: 22px; cursor: pointer; background: url(../images/admin-sprite.png) no-repeat; }
+dl.admin-ico dd span.admin-ico01 { background-position: -8px -22px; }
+dl.admin-ico dd span.admin-ico02 { background-position: -42px -22px; }
+dl.admin-ico dd span.admin-ico03 { background-position: -77px -22px; }
+
+/* 提示 */
+/* 0710 提示 0805 */
+
+.item01 { padding: 5px; background-color: #fff; border: 1px solid #ccc; }
+b.ar_down { position: absolute; bottom: -15px; left: 40%; width: 0; height: 0; border-width: 8px; border-style: solid dashed dashed dashed; border-color: #bac6cd transparent transparent transparent; }
+b.ar_down_in { position: absolute; bottom: -14px; left: 40%; width: 0; height: 0; border-width: 8px; border-style: solid dashed dashed dashed; border-color: #fff transparent transparent transparent;}
+.ico-box .ar_down,
+.ico-box .ar_down_in { left: 40%; }
+.ico-box1 { display: none; position: absolute; top: 30px; left: 70px; }
+.ico-box2 { display: none; position: absolute; top: 30px; left: 90px; }
+.ico-box3 { display: none; position: absolute; top: 30px; right: 5px; }
+
+
+.icoa-box { display: block; position: absolute; top: 30px; left: 70px; }
+.icob-box { display: none; position: absolute; top: 30px; left: 90px; }
+.icoc-box { display: none; position: absolute; top: 30px; right: 5px; }
+
+
+/*.ico-help-box .ar_down,
+.ico-help-box .ar_down_in { left: 47%; }
+.ico-help-box1 .ar_down,
+.ico-help-box1 .ar_down_in { left: 33%; }
+.ico-help-box4 .ar_down,
+.ico-help-box4 .ar_down_in { left: 72%; }
+.ico-help-box1 { display: none; position: absolute; top: 80px; left: 0; }
+.ico-help-box2 { display: none; position: absolute; top: 80px; left: 224px; }
+.ico-help-box3 { display: none; position: absolute; top: 80px; right: 148px; }
+.ico-help-box4 { display: none; position: absolute; top: 80px; right: 0; }*/
+/* end-0710 提示 */
+
+
+/* end-0710 提示 0805 */
+
+
+.admin-ye { margin-top: 30px; padding-bottom: 30px; text-align: center; border-bottom: 1px solid #E3E3E3; }
+.admin-ye p.ye { margin-bottom: 20px; }
+.admin-ye p.ye span {color: #2d5aaf; }
+.caoz-btn { width: 130px; height: 35px; line-height: 30px; padding: 0; color: #fff; }
+.tixian { background-color: #d7d7d7;border-radius:2px; }
+.chongzhi { background-color: #ff6602; border-radius:2px;}
+
+.admin-main-lef h5 { display: block; height: 44px; line-height: 44px; padding-left: 24px; margin: 50px 0 0; color: #222; }
+.admin-main-lef p.admin-info { padding-left: 24px; height: 45px; line-height: 45px; color: #000; border-bottom: 1px solid #E3E3E3; border-left:4px solid #2d5aaf;   font-size:14px;}
+.admin-main-lef ul li { width: 200px; height: 45px;  border-bottom: 1px solid #E3E3E3; font-size: 13px; cursor: pointer; transition: background-color 0.2s ease; }
+.admin-main-lef ul li a { position: relative; display: block; padding-left: 24px; line-height: 45px; color: #696868; }
+.admin-main-lef ul li i { position: absolute; right: 30px; top: 17px; display: block; width: 7px; height: 12px; background: url(../images/admin-lef-bg.png) no-repeat; }
+.admin-main-lef ul li:hover { background-color: #ffffff; }
+.admin-main-lef li.current { background-color: #fff; }
+.admin-main-lef li.current i { display: none; }
+/* end-左侧导航 */
+
+.admin-main-rig { width: 1000px; }
+.admin-main-box { position: relative; padding: 50px; overflow: hidden; min-height: 905px; }
+.admin-pagelist { margin: 50px; }
+/* 第一部分 */
+.admin-main01 { overflow: hidden;  }
+.admin-main01-data01 { overflow: hidden; width: 900px; }
+.admin-main01-data02 { height: 80px; overflow: hidden; border: 1px solid #D1D1D1; background-color: #fafafa; margin-top: 35px; }
+.admin-main01-data02 p { float: left; width: 25%; height: 40px; text-align: center; margin: 20px 0; border-right: 1px solid #d1d1d1; overflow: hidden; text-align: left; padding-left: 70px }
+/* 0730 修改 */
+.admin-main01-in { position: relative; width: 440px; height: 80px; overflow: hidden; }
+.admin-main01-out { width: 440px; height: 80px; overflow: hidden; }
+
+.admin-main01-in p { width: 358px; padding: 15px 0 0 20px; border: 1px solid #00c248;  }
+.admin-main01-out p { width: 358px; padding: 15px 0 0 20px; border: 1px solid #ff6602;  }
+/* end-第一部分 */
+/* 红包 */
+.admin-index-hbao { position: relative; overflow: hidden; padding-top: 35px; } 
+.hbao-ico { width: 80px; height: 80px; overflow: hidden; }
+.admin-index-hbao_money { width: 820px; height: 80px; overflow: hidden; border: 1px solid #D1D1D1; border-left: none; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+.admin-index-hbao p { float: left; width: 35%; padding: 30px 0 0 30px; }
+.admin-index-hbao p.hbao-ico { padding: 0; width: 80px; height: 80px; overflow: hidden; }
+/* 0812 红包提示 */
+.hbao-tip {position:absolute;top:75px;left:330px;text-align:center;background-color:#013588;border-radius:50%;width:12px;height:12px;line-height:12px;cursor: pointer;} 		
+.hbao-tip01 { left: 615px; } 
+.hbao-tip:before{content:'?';color:#fff;}
+
+.hbao-tip p{display:none;text-align:left;background-color:#fff;padding:10px;width:300px;position:absolute; bottom: 20px;left: -128px; border-radius:3px; border: 1px solid #ccc; line-height:1.4; }
+.hbao-tip:hover p{display:block;-webkit-animation:fadeIn 0.3s ease-in-out;animation:fadeIn 0.3s ease-in-out;}
+
+.hbao-tip p:before{position:absolute;content:'';width:0;height:0;border: transparent solid 8px; border-top-color:#ccc;left: 125px;
+bottom: -16px;}
+.hbao-tip p:after{position: absolute; content: ''; width: 0; height: 0; border: transparent solid 8px; border-top-color: #fff; left: 125px;bottom: -15px;}
+@-webkit-keyframes fadeIn{0%{opacity:0;transform:scale(0.6);}100%{opacity:100%;transform:scale(1);}}
+@keyframes fadeIn{0%{opacity:0;}100%{opacity:100%;}}
+
+/* end-0812 红包提示 */
+
+
+/* end-红包 */
+
+/* 投资概况 */
+.admin-index-tzgk table tr td { border-color: #D1D1D1; padding-top: 15px; height: 50px; text-align: center; }
+.admin-index-tzgk table tr td.td-first { text-align: left; padding-left: 20px; color: #222; }
+.admin-index-tzgk table.tzgk-table03 tr td { width: 20%; }
+.admin-index-tzgk table tr td.wid20 { width: 20.55%; }
+.admin-index-tzgk p.data-tit { padding-left: 20px; height: 35px; line-height: 35px; border: 1px solid #d1d1d1; border-bottom: none; background-color: #f6f6f6; }
+/* end-投资概况 */
+
+/* 交易记录 */
+/* end-交易记录 */
+
+/* end-右侧 */	
+/* end-admin 首页 */
+
+/* admin 安全信息 */
+.security-jdt { margin-bottom: 50px; height: 50px; line-height: 50px; }
+.security-jdt .progress { margin: 18px 18px 0; width: 650px; height: 13px; }
+.admin-security-slide .panel { box-shadow: none; border: none; color: #838383; }
+.admin-security-slide .panel-default > .panel-heading { padding-bottom: 25px; color: #838383; border-bottom: 1px solid #f2f2f2; background: none; background-image: none; filter: 0; }
+.admin-security-slide .panel-body { padding-left: 60px; }
+.admin-security-slide .panel-heading span { margin-right: 20px; }
+.admin-security-slide .panel-heading a { float:right; }
+.admin-security-slide .change-tit { margin-bottom: 25px; }
+.admin-security-slide .collapse { border-bottom: 1px solid #f2f2f2; }
+.admin-security-slide .panel-group .panel-heading,
+.panel-group .panel-heading01 + .panel-collapse .panel-body01 { border-top: none; }
+
+/* end-admin 安全信息 */
+
+/* 我的投资 */
+/* 我的投资-我的优选 */
+.admin-licai-yx-top p { float: left; line-height: 40px; border-right: 1px solid #f2f2f2; font-size: 14px; }
+.admin-licai-yx-data { padding-top: 50px; overflow: hidden;}
+.jie-data01 ul li span { display: inline-block; padding-left: 50px; width: 178px; }
+.yx-tabs li { width: 150px; }
+.yx-tabs li a { border-radius: 0; }
+.yx-tabs > li > a:hover { background: none; border: none; }
+.yx-tab-content ul li { float: left; height: 50px; line-height: 50px; font-size: 14px;  }
+/* end-我的投资-我的优选 */
+
+/* 我的投资-我的散标 */
+.admin-licai-yx-top { padding: 20px; overflow: hidden; background-color: #fffbe2; border: 1px solid #FFDED0; }
+.yx-tabs li a { padding: 18px 15px; margin-right: 0; }
+.yx-tabs li.active  { border-top: 4px solid #2d5aaf; }
+.admin-licai-zq-tit { text-align: right;}
+/* end-我的投资-我的散标 */
+
+/* 我的借款申请 */
+.admin-jiekuan { padding-top: 10px; text-align: center; }
+.jiekuan-data h5 { margin: 50px 0; }
+.jiekuan-data .jiekuan-data-table ul li span { padding-right: 80px;  }
+/* end-我的借款申请 */
+
+/* 我的投资-投资统计 */
+.zichan-tj { padding-top: 50px; }
+.zichan-tj ul { margin-top: 20px; overflow: hidden; border: 1px solid #f2f2f2; }
+.zichan-tj ul li { height: 40px; line-height: 40px; border-bottom: 1px solid #f2f2f2; }
+.zichan-tj ul li.tj-tit { background-color: #f8f8f8; }
+.zichan-tj ul li.tj-tit span.tit { border: none; }
+.zichan-tj ul li span.tit { display: inline-block; width: 108px; border-right: 1px solid #f2f2f2; text-align: center; }
+.zichan-tj ul li span.money { float: right; padding-right: 200px;  }
+/* end-我的投资-投资统计 */
+
+/* end-我的投资 */
+
+/* 个人基本信息 */
+.admin-js-rig .form-group { margin-bottom: 20px; }
+.admin-js-tabs li { width: 125px; }
+.admin-js-lef { text-align: center; width: 220px; }
+.admin-js-lef img { width: 105px; height: 105px; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; background-color: #ccc; border: 1px solid #b2c6c6; }
+.span_wid75 { display: inline-block; width: 75px; }
+.admin-js-rig .input-wid420 { width: 195px; height: 32px; }
+.admin-js-rig span i { padding: 0 10px; }
+.admin-js-rig span.warn i { display: inline-block; width: 14px; height: 14px; background: url(../images/admin-sprite.png) no-repeat 0 -8px; }
+.admin-js-rig span.ok i { background: url(../images/admin-sprite.png) no-repeat -23px -8px; }
+/* 0711 个人基本信息 */
+/* admin-js-model01 */
+.admin-js-model { width: 100%; border: 1px solid #f2f2f2; background-color: #f9fbff;  overflow: hidden; }
+.admin-js-model01 { height: 118px; }
+.admin-js-model01 dl { overflow: hidden; margin: 25px 0 0 25px; color: #999; }
+.admin-js-model01 dl dt { float: left; margin-right: 20px; display: inline; width: 70px; height: 70px; overflow: hidden; border-radius: 50%; }
+.admin-js-model01 dl dt img { width: 70px; height: 70px; }
+.admin-js-model01 dl dd.name { margin: 20px 0 5px; }
+/* admin-js-model02 */
+.admin-js-model02 { margin: 30px 0; border-left: none; }
+.js-model02-renz { float: left; width: 33.33%; height: 140px; border-left: 1px solid #f2f2f2; }
+.js-model02-renz dl { padding: 40px 0 0 80px; }
+.js-model02-renz dl dt { float: left; margin-right: 15px; width: 62px; height: 62px; }
+.js-model02-renz dl dd.renz { margin: 15px 0 5px; }
+
+.js-model02-renz dl dd i.renz-ok { display: inline-block; margin-left: 8px; width: 13px; height: 13px; background: url(../images/admin-sprite.png) no-repeat -23px -8px; }
+.js-model02-renz dl dd i.renz-no { display: inline-block; margin-left: 8px; width: 13px; height: 13px; background: url(../images/admin-sprite.png) no-repeat -145px -8px; }
+/* admin-js-model03 */
+.admin-js-model03 { height: 200px; }
+.admin-js-model03 table tr td { height: 50px; vertical-align: middle; }
+.admin-js-model03 table tr.color-bgfff { background-color: #fff; }
+.admin-js-model03 table tr td.wid160 { padding-left: 24px; width: 160px; }
+.admin-js-model03 table tr td.wid135 { padding-right: 25px; width: 135px; color: #999; }
+
+/* end-个人基本信息 */
+
+/* 站内信 */
+.admin-news ul li { line-height: 50px; }
+.article-info { padding-top: 50px; }
+/* end-站内信 */
+
+/* 自动投标 */
+.invest_main_ttop_tm01 { width: 200px; float: left; margin-right: 35px; color: #545454; } 
+.admin-toubiao-bottom h5 { padding: 0 0 10px 25px; background: url(../images/admin-sprite.png) no-repeat 0 -41px; }
+.admin-toubiao-bottom p { padding: 20px; line-height: 24px; }
+/* end-自动投标 */
+
+/* 银行卡信息 */
+.yinh-ico { margin: 25px 0 50px; width: 235px; height: 135px; border: 1px dashed #7bb1ea; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; background: url(../images/yinh.png) no-repeat 100px 35px; }
+.yinh-ico a { display: inline-block; padding: 80px 90px 30px 95px; }
+.yinh-info p { margin-top: 10px; line-height: 24px; }
+/* end-银行卡信息 */
+
+/* 通知设置 */
+.admin-set h5 { padding-bottom: 20px; }
+.admin-set table { width: 900px; }
+.admin-set table tr { line-height: 50px; }
+.td-wid380 { width: 380px; }
+.td-wid60 { width: 60px; text-align: center; }
+.td-padlef { padding-left: 300px; }
+.border-line { border-bottom: 1px  solid #f2f2f2; }
+.marg-top { margin-top: 30px; }
+.admin-set-tishi h5 { padding-top: 40px; }
+.admin-set-tishi p { line-height: 24px; }
+/* end-通知设置 */
+
+/* 交易记录 */
+.start-date { width: 165px;  }
+.admin-jiaoy-date { height: 40px; line-height: 40px; }
+.jiaoy-date-lef { padding-right: 30px; }
+.date-line { display: block; margin: 0 10px; }
+span.glyphicon-calendar {  background: url(../images/date-ico.png) no-repeat center center; }
+span.glyphicon-arrow-left { display: inline-block; height: 20px;  background: url(../images/arrow-lef.png) no-repeat center center; }
+span.glyphicon-arrow-right { display: inline-block; height: 20px; background: url(../images/arrow-rig.png) no-repeat center center; }
+span.input-group-addon { border-left: none; background-color: #fff; } 
+.admin-jiaoy-date span.line { padding: 0 5px; }
+span.tit { display: inline-block; width: 70px; }
+input.date-ico { background: url(../images/date-ico.png) no-repeat 137px 12px; }
+.admin-jiaoy-search a { padding: 0 10px; }
+.jiaoy-result { padding-left: 30px; }
+.jiaoy-lei { margin-right: 10px; width: 165px; }
+.admin-jiaoy-search { margin: 20px 0 50px 55px; }
+.admin-jiaoy-search select { margin-right: 20px; width: 165px; line-height: 30px; }
+.admin-jiaoy-data table { width: 900px; }
+.admin-jiaoy-data table tr.jiaoy-data-tit { height: 40px; line-height: 40px; border: 1px solid #f2f2f2; background-color: #f8f8f8; }
+.admin-jiaoy-data table tr td { text-align: center; line-height: 50px; border-bottom: 1px dashed #ebeef1; }
+.admin-jiaoy-data table tr:hover { background-color: #F6F7F8; transition: background-color 0.2s ease;  }
+.admin-jiaoy-data table tr td.wid110 { width: 110px; }
+.admin-jiaoy-data table tr td.wid160 { width: 160px; }
+.admin-jiaoy-data table tr td.wid240 { width: 240px; }
+/* end-交易记录 */
+
+/* 修改密码 */
+.password-tit { margin-bottom: 50px; background: url(../images/mt-linebg02.jpg) repeat-x center center; }
+.password-tit span { display: inline-block; width: 120px; height: 50px; line-height: 50px; background-color: #fff; }
+.login-pass { cursor: pointer; margin: 50px 0 30px; padding-bottom: 10px; border-bottom: 1px solid #f2f2f2; }
+.login-pass span { padding-left: 20px; color: #d7d7d7; }
+span.span_name { display: inline-block; width: 60px; text-align: right; margin-right: 20px; }
+.pass-btn { margin-left: 84px; }
+.focus-tishi { color: #ccc; }
+label.error { display: inline; padding: 10px 0 10px 30px; background: url(../images/error.png) no-repeat center left; font-weight: normal; color: red;  }
+label.valid { background: url(../images/valid.png) no-repeat center left; font-weight: normal; color: #ccc;  }
+
+/* end-修改密码 */
+
+/* 红包 */
+.hbao-dialog { margin: 0 auto; width: 1200px; }
+.hbao-con { width: 1200px; overflow: hidden; background: none; border: none; }
+.hbao-body { width: 1200px; overflow: hidden; }
+.hbao-box { height: 950px; background: url(../images/hbao/hbao-bg.png) no-repeat center center; }
+.hbao-bg { height: 950px;}
+.hbao-xx{background: url(../images/hbao/hbao-bg02.png) no-repeat center center;}
+
+.hbao01 { position: relative; height: 950px; background: url(../images/hbao/hbao01.png) no-repeat center center; }
+.hbao02 { position: absolute; top: 420px; left: 333px; width: 479px; height: 228px; text-align: center; background: url(../images/hbao/hbao02.png) no-repeat center center; color: #ff6511; font-size: 140px;display:none; }
+.hbao02_1{position: absolute; top: 250px; left: 321px; width: 502px; height: 134px;display:none;}
+.hbao03 { position: absolute; top: 400px; left: 321px; width: 502px; height: 280px; background: url(../images/hbao/hbao03.png) no-repeat center center; }
+.hbao03_1 { position: absolute; top: 382px; left: 321px; width: 502px; height: 134px;}
+.hbao04 { position: absolute; top: 565px; left: 500px; width: 150px; height: 40px; line-height: 40px; text-align: center; color: #ef2233; cursor: pointer; background-color: #ffea00; }
+/* end-红包 */
+
+/* 0819 修改 */
+.toubiao-box { padding-top: 50px; overflow: hidden; }
+.toubiao-box .nav-tabs li a { margin-right: 0; outline: none; }
+.toubiao-tabs li a:hover { border: none; background: none; }
+.toubiao-box .nav-tabs li.active { border-top: 4px solid #2d5aaf; }
+/* end-0819 修改 */
+
+/* 0822 预约自动投标工具 */
+.products-select { width: 900px; overflow: hidden; }
+.products-select h6 { margin-bottom: 10px; }
+.products-select table { width: 900px; border: 1px solid #d3d8dc; }
+.products-select table tr { height: 50px; line-height: 50px; text-align: center; border-bottom: 1px solid #d3d8dc; }
+.products-select table tr:hover { background-color: #F6F7F8; transition: background-color 0.2s ease; } 
+.products-select table tr.tit { background-color: #e5e5e5; }
+
+/* 预约金额  */
+.products-money { margin: 50px 0; overflow: hidden; }
+.products-money h6 { margin-bottom: 20px; }
+.products-money ul li { margin: 30px 0 10px 20px; }
+.products-money ul li span { display: inline-block; width: 85px; text-align: right; margin-right: 20px; }
+.products-money p { margin: 10px 0 0 125px; }
+.products-money-rig { padding: 0; width: auto; padding-left: 100px; }
+/* end-0822 预约自动投标工具 */
+/* 优选弹层 */
+.table-confirm em { font-style:  normal; }
+.table-confirm  .mt10 { margin-top: 10px; }
+.table-confirm  h3 { font-size: 24px; font-weight: normal; }		
+.table-confirm  a { color: #003896; text-decoration: none; }
+.table-confirm  a:hover { color: #f05c01; text-decoration: none; }
+		
+yx-dialog { margin: 0 auto; width: 900px; overflow: hidden; background-color: #fff; }
+.table-confirm ul,
+.table-confirm table { width: 100%; }
+.table-confirm ul li { float: left; width: 20%; height: 60px; line-height: 60px; border-bottom: 1px solid #dddddd; font-size: 14px; text-align: center; }
+.table-confirm table tr td { width: 20%; height: 60px; line-height: 60px; color: #666; border-bottom: 1px solid #dddddd; text-align: center; }
+.table-confirm ul li.first,
+.table-confirm table tr td.first { text-align: left; }
+.off { padding: 20px 0; overflow: hidden; text-align: center; }
+.off .off-btn { display: inline-block; width: 80px; height: 30px; text-align: center; line-height: 30px; background-color: #00c248; border: none; font-size: 14px; color: #fff; border-radius: 2px;}
+.hoverclass { background-color: #d1d1d1;}
+/* end-优选弹层 */
+
+
+
+
+
+
+
+

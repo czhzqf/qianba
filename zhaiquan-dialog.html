@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>债权转让</title>
+    <style type="text/css">
+		body,div,span,a,ul,li,h3 { margin: 0; padding: 0; }
+		body { font:12px/2.5 Tahoma,'hiragino Sans GB','microsoft yahei',sans-serif; color: #666; background-color:#ebeff2; }
+		ul,ol,li { list-style: none; }
+		em { font-style:  normal; }
+		.fl { float: left; }
+		.fr { float: right; }
+		.clb { zoom: 1; }	
+		.clb:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}	
+		.mt10 { margin-top: 10px; }
+		
+		h3 { font-size: 24px; font-weight: normal; }
+		.font_14 { font-size: 14px; }
+		.font_18 { font-size: 18px; }
+		 a { color: #003896; text-decoration: none; }
+		 a:hover { color: #f05c01; text-decoration: none; }
+		.basic-dialog { margin: 0 auto; width: 500px; overflow: hidden; background-color: #fff; }
+		.ui-confirm { padding: 20px; padding-bottom: 10px; }
+		.ui-confirm ul li span { float:left; display: inline-block; }
+		.ui-confirm-label { width: 100px; }
+		.ui-confirm-value { width: 360px; }
+		.ui-confirm-value.two-column { width: 130px; }
+		.ui-confirm-item-note { padding-left: 100px;}
+		.color-gray-text { color: gray;}
+		.w170 { width: 170px; }
+		.zhuan-submit { padding-left: 100px; }
+		.zhuan-submit .zhuan-btn { width: 80px; height: 30px; text-align: center; line-height: 30px; background-color: #00c248; border: none; font-size: 14px; color: #fff; border-radius: 2px;}
+	</style>
+</head>
+
+<body>
+	<div class="basic-dialog">
+    	<div class="ui-confirm">
+            <h3 class="ui-confirm-title">债权转出 <span class="font_14">ID 200991</span></h3>
+            <ul>
+                <li class="clb">
+                  <span class="ui-confirm-label">原始投资额</span>
+                  <span class="ui-confirm-value num-s last"><em class="font_14">100.00</em>元（2份）</span>
+                </li>
+                <li class="clb">
+                  <span class="ui-confirm-label">已收利息</span>
+                  <span class="ui-confirm-value two-column num-s"><em class="font_14">0.00</em>元</span>
+                  <span class="ui-confirm-label">利率</span>
+                  <span class="ui-confirm-value two-column num-s last"><em class="font_14">11.00</em>%</span>
+                </li>
+                <li class="clb">
+                  <span class="ui-confirm-label">可转让份数</span>
+                  <span class="ui-confirm-value two-column num-s"><em data-name="cfm-available-shares">2</em>份</span>
+                  <span class="ui-confirm-label">剩余期数</span>
+                  <span class="ui-confirm-value two-column num-s last"><em class="font_14">9</em>个月</span>
+                </li>
+                <li class="clb">
+                  <span class="ui-confirm-label">转让份数</span>
+                  <span class="ui-confirm-value ui-form-item ui-form-item-nolabel last">
+                    <input class="ui-input" id="J_zrff" type="text" name="share" value="2" data-name="cfm-shares-to-transfer">
+                    <em id="J_error_hint" class="hint rrdcolor-red-text" data-name="cfm-hint" style="display: none;"></em>
+                  </span>
+                </li>
+                <li class="clb">
+                  <span class="ui-confirm-label">当前债权价值</span>
+                  <span class="ui-confirm-value two-column num-s"><em data-name="cfm-value-per-share">38.25</em>元/份</span>
+                  <span class="ui-confirm-label">当前待收本息</span>
+                  <span class="ui-confirm-value two-column last"><em class="font_14">39.78</em>元/份</span>
+                </li>
+                <li class="ui-confirm-item-note color-gray-text">
+                  一般为转让时的待回收本金与应计利息之和。
+                  <a href="/help/invest/invest!transfer.action#transferValue" target="_blank">查看详细</a>
+                </li>
+                <li class="clb">
+                  <span class="ui-confirm-label">转让系数</span>
+                  <span class="ui-confirm-value last">
+                    <select name="disCount" data-name="cfm-discount">
+                      <option value="1.0">100.0%</option>
+                      <option value="0.995">99.5%</option>
+                      <option value="0.99">99.0%</option>
+                      <option value="0.985">98.5%</option>
+                      <option value="0.98">98.0%</option>
+                      <option value="0.975">97.5%</option>
+                      <option value="0.97">97.0%</option>
+                      <option value="0.965">96.5%</option>
+                      <option value="0.96">96.0%</option>
+                      <option value="0.955">95.5%</option>
+                      <option value="0.95">95.0%</option>
+                      <option value="0.945">94.5%</option>
+                      <option value="0.94">94.0%</option>
+                      <option value="0.935">93.5%</option>
+                      <option value="0.93">93.0%</option>
+                      <option value="0.925">92.5%</option>
+                      <option value="0.92">92.0%</option>
+                      <option value="0.915">91.5%</option>
+                      <option value="0.91">91.0%</option>
+                      <option value="0.905">90.5%</option>
+                      <option value="0.90">90.0%</option>
+                    </select>
+                  </span>
+                </li>
+                <li class="ui-confirm-item-note color-gray-text">
+                  此转让系数仅作用于债权待收本金部分
+                </li>
+                <li class="clb">
+                  <span class="ui-confirm-label">转让价格</span>
+                  <span class="ui-confirm-value num-s last"><em class="font_14">38.25</em>元/每份</span>
+                </li>
+                <li class="clb">
+                  <span class="ui-confirm-label">转让总价格</span>
+                  <span class="ui-confirm-value num-s last"><em class="font_14">76.50</em>元</span>
+                </li>
+                <li class="clb">
+                  <span class="ui-confirm-label">转让费用</span>
+                  <span class="ui-confirm-value num-s last">
+                    <em class="font_14">0.38</em>元
+                  </span>
+                </li>
+                <li class="clb">
+                  <span class="ui-confirm-label">预计收入金额</span>
+                  <span class="ui-confirm-value num last"><em class="font_18">76.12</em>元</span>
+                </li>
+                <li class="ui-confirm-item-note color-gray-text">
+                  由于债权价值会发生变动，最终收入金额可能发生变动。
+                  <a href="#">查看详细</a>
+                </li>
+                <li class="clb">
+                  <span class="ui-confirm-label">提现密码</span>
+                  <span class="ui-confirm-value last" id="captcha">
+                    <input id="captcha-input" type="password" name="cashPassword" value="">
+                    <a id="findPsw" class="findPsw" href="#">忘记密码</a>
+                  </span>
+                </li>
+              </ul>
+              <div class="clb">
+              	<input type="checkbox" checked="checked">我已阅读并同意签署<a href="#" title="债权转让及受让协议">《债权转让及受让协议》</a>
+              </div>
+              <div class="mt10 text-center">
+                <input type="hidden" name="lenderId" value="3552793">
+                <div class="fn-clear w170 zhuan-submit">
+                  <button type="submit" class="zhuan-btn">转让</button>
+                  <a class="fn-left last" href="#">取消</a>
+                </div>
+              </div>
+          </div>
+    </div>
+
+</body>
+</html>

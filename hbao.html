@@ -1,0 +1,584 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9, IE=8, chrome=1">
+    <title>钱吧</title>
+    <meta name="keywords" content="钱吧, 钱吧网, 网络投融资平台, 网络投资, 互联网投资, 固定收益, 100%本息保障, 钱吧官方, www.51qianba.com" />
+    <meta name="description" content="钱吧网为您提供安全可靠、资金透明的互联网投资服务：50元即可投资，线上投资线下审核，多重安全保障！" />
+    <meta name="author" content="青岛钱吧金融信息服务有限公司" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<!--@ bootstrap -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="css/master.css" />
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/optimize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/about.css"/>
+
+    <script type="text/javascript">
+		var environment = {
+			userVo : '',
+			role : '',
+			userId : '',
+			basePath : '',
+			userCash : '',
+			globalPath : ''
+		};
+	</script>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- yooli -->
+    <script type="text/javascript" src="js/global-1.1.0.min.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/guide.js"></script>
+    
+    <!-- 微信浮窗 -->
+    <script type="text/javascript" src="js/js.js"></script> 
+    <!-- 红包 -->
+    <style type="text/css">
+	
+		.hbao-box { margin: 0 auto; width: 1200px; overflow: hidden; }
+		.hbao-bg { width: 100%; min-width: 1200px; background-color: #831a00; }
+		.hbao-tit { display: block; font-size: 24px; color: #fff; }
+		
+		/* hbao-top  */
+    	.hbao-top { height: 709px; overflow: hidden; background: url(images/hbao/hbao-top-bg.png) repeat-x; }
+		.hbap-top01 { margin-right: -3px; height: 236px; overflow: hidden; background: url(images/hbao/hbao-top-bg01.png) no-repeat center center; }
+		.hbap-top02 { margin-right: -3px; height: 187px; overflow: hidden; background: url(images/hbao/hbao-top-bg02.png) no-repeat center center; }
+		.hbap-top03 { margin-right: -3px; height: 286px; overflow: hidden; background: url(images/hbao/hbao-top-bg03.png) no-repeat center center; }
+		/* 红包倒计时 */
+		.hbao-time-lef { padding: 105px 0 0 120px; }
+		.hbao-time-text { width:700px; }
+		.hbao-time-text span { padding-left: 140px; font-size: 16px; color: #fff; }
+		.hbao-time-rig { margin-right: 150px; width: 205px; overflow: hidden; color: #ff6602;  }
+		.hbao-time-rig h3 { margin: 30px 0 5px 20px; color:#ff6602;}
+		.hbao-time-rig p { line-height: 26px; color:#ff6602;}
+		
+		.time_show{height:90px;width:700px;}
+		.time_show div{float:left;}
+		.time_style{height:80px;width:50px;font-size:60px;margin:10px;float:left;overflow:hidden;}
+		.time_t{height:80px;width:50px;padding-left:10px;background-color:#ff6602;border-radius:5px;margin-top:-80px;color:#fff;line-height:80px;}
+
+		.time_show .time { padding-top: 65px; text-align: center; vertical-align: bottom; color: #ff6602; font-size: 20px; }
+		/* end-红包倒计时 */
+		
+		
+		/* 红包领取 */
+		.hbao-get { margin-top: -2px; height: 224px; overflow: hidden; background: url(images/hbao/hbao-get-bg.png) no-repeat center center; }
+		.hbao-get-btn { text-align: center;  }
+		.hbao-get span.hbao-tit { padding: 8px 0 0 90px; }
+		.hbao-get-my { height: 282px; overflow: hidden; background: url(images/hbao/hbao-get-mybg.png) no-repeat center center; }
+		.myhbao-box ul { padding-left: 55px; margin: 0 auto; width: 1100px; overflow: hidden; }
+		.myhbao-box ul li { float: left; margin: 80px 18px 0 0; width: 188px; height: 125px; background: url(images/hbao/hbao-ico.png) no-repeat 0 0; }
+		/* 红包弹窗 */
+		.myhbao-header { width: 600px; height: 50px; background-color: #cc2920; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+		.myhbao-body { width: 600px; height: 230px; text-align: center; font-size: 18px; background-color: #fff; }
+		.myhbao-body h1 { margin: 30px 0; color: #cc2920; }	
+		.myhbao-footer { width: 600px; height: 72px; background: url(images/hbao/myhbao-bg.jpg) no-repeat 0 0; }
+		
+		.tc_mks_time{ color:#ef2233;}
+		.tc_mks_close{position: absolute;top: 4px;left: 555px;width: 40px;height: 40px;}
+		/* end-红包领取 */
+		
+		/* 红包中奖名单 */
+		.hbao-name { height: 219px; overflow: hidden; background: url(images/hbao/hbao-name-bg.png) no-repeat center center; }
+		.hbao-name-box { height: 135px; overflow: hidden; }
+		.hbao-name span.name-tit { padding: 5px 0 0 128px; }
+		.hbao-name span.role-tit { padding: 5px 0 0 90px; }
+		
+		.name-box-lef { width: 280px; padding-left: 110px; font-size: 16px; color: #ed4d1d; }
+		.name-box-lef span { display: block; margin-top: 30px; }
+		.name-slide{ position: relative; margin-top: 30px; width: 810px; height: 80px; overflow: hidden; }
+		.name-slide ul { position:absolute; height:80px;}
+		.name-slide ul li{ float:left; line-height:40px; padding-right: 30px; color: #fff; }
+		
+		/* end-红包中奖名单 */
+		
+		/* 红包规则 */
+		.hbao-role-box { padding: 10px 90px 0; overflow: hidden; background-color: #ff9d02; }
+		.role-modal span.role-modal-tit { margin: 35px 0 15px; padding-left: 15px; display: block; font-size: 16px; color: #fff; background: url(images/hbao/dot.png) no-repeat left 10px; }
+		.role-modal p { line-height: 30px; color: #fff; }
+		
+		
+		/* end-红包规则 */
+		.hbao-footer { padding-bottom: 50px; height: 29px; overflow: hidden; background: url(images/hbao/hbao-footer.png) no-repeat center top; }
+    </style>
+    <!--@ 红包 -->
+</head>
+
+<body>
+	<!-- head -->
+    <div class="head_top">
+        <div class="head_top_box">
+          <p class="fl head_top_tel color_bai">服务热线：<span class="font_14 color_huang" >400-626-5178</span></p>
+          <div class="fr head_top_nav">
+          	<a href="task.html" class="color_bai color_bai_hover task-ico" title="领取红包">领取红包<i></i></a>
+            <a style="display: block;" href="create.html" class="color_bai color_bai_hover" title="立即注册" >立即注册</a>
+            <a href="#" style="display: block;" class="cor_ff6602 color_bai color_bai_hover" title="立即登录" data-toggle="modal" data-target="#myModal">立即登录</a>
+            <a style="display: none;" href="#" class="color_bai color_bai_hover" title="欢迎您" >欢迎您</a>
+            <a style="display: none;" href="#" class="color_bai color_bai_hover" title="转角光阴" >转角光阴<span>0</span></a>
+            <a class="color_bai color_a_hover" href="#" title="关于我们" >关于我们</a>
+            <a class="color_bai color_a_hover" href="#" title="帮助中心" >帮助中心</a>
+            <a style="display: blcok;" class="color_bai color_a_hover" href="#" title="退出" >退出</a>
+          </div>
+        </div>
+    </div>
+    
+    <div class="head_bottom">
+        <div class="head_bottom_box ">
+          <div class="fl"><a href="index.html" title="钱吧" ><img src="images/logo.png" alt="钱吧"/></a></div>
+          <div class="fr btn-group head_bottom_nav">     
+            <!-- 0613 修改 -->
+            <ul>
+                <li><a class="font_14 color_333 color_a_hover" href="index.html">首页</a></li>
+                <li class="nav_dropdown">
+                    <a id="nav_a" class="font_14 color_333 color_a_hover" href="#" >我要投资</a>
+                    <div id="nav_div" class="nav_dropdown_div" >
+                        <a class="font_14 color_333 color_a_hover" href="optimize_yud.html">优选计划</a>
+                        <a class="font_14 color_333 color_a_hover" href="#">钱保计划</a>
+                        <a class="font_14 color_333 color_a_hover" href="#">散标计划</a>
+                   </div>
+                </li>
+                <li><a class="font_14 color_333 color_a_hover" href="#">我要借款</a></li>
+                <li><a class="font_14 color_333 color_a_hover" href="#">新手指引</a></li>
+                <li><a class="font_14 color_333 color_a_hover" href="#">我的钱吧</a></li>
+            </ul> 
+          </div>
+        </div>
+    </div>
+	 <!--@ head -->
+     <!-- 红包top -->
+     <div class="clb hbao-top">
+     	<div class="hbap-top01"></div>
+        <div class="hbap-top02"></div>
+        <div class="hbap-top03">
+         <!-- 红包倒计时 -->
+         <div class="hbao-box">
+         	<div class="fl hbao-time-lef">
+           		<!-- 倒计时调用 -->
+            	<div class="h_daojishi">
+                   <div id="timeset" style="display:none">2014/08/18 20:18:00</div>  <!-- 开始时间设定 -->
+                    <div  class="time_show">
+                        <div class = "time_style" style="display:none">
+                            <div class="time_t">0</div>
+                            <div class="time_t">0</div>
+                        </div>
+                        
+                        <div class = "time_style">
+                            <div class="time_t">0</div>
+                            <div class="time_t">0</div>
+                        </div>
+                        <div class="time">天</div>
+                        <div class = "time_style">
+                            <div class="time_t">0</div>
+                            <div class="time_t">0</div>
+                        </div>
+                        <div class = "time_style">
+                            <div class="time_t">0</div>
+                            <div class="time_t">0</div>
+                        </div>
+                        <div class="time">时</div>
+                        <div class = "time_style">
+                            <div class="time_t">0</div>
+                            <div class="time_t">0</div>
+                        </div>
+                        <div class = "time_style">
+                            <div class="time_t">0</div>
+                            <div class="time_t">0</div>
+                        </div>
+                        <div class="time">分</div>
+                        <div class = "time_style">
+                            <div class="time_t">0</div>
+                            <div class="time_t">0</div>
+                        </div>
+                        <div class = "time_style">
+                            <div class="time_t">0</div>
+                            <div class="time_t">0</div>
+                        </div>
+                        <div class="time">秒</div>
+                    </div>
+             	<!--daojishi  end-->
+            	</div>
+                <!--@ 倒计时调用 -->
+            </div>
+            <div class="fr hbao-time-rig">
+            	<h3>活动内容</h3>
+                <p>为庆祝钱吧金融入驻金家岭金融新区，钱吧特此举行注册有红包活动。活动期间，新手登录钱吧官方网站进行账号注册，即可参加钱吧注册有红包活动。本活动具有多次机会领取红包丰厚大奖。</p>
+            </div>
+         </div>
+         <!--@ 红包倒计时 -->
+        </div>
+     </div>
+     <!--@ 红包top -->
+     
+    
+     <!-- 红包领取 -->
+     <div class="hbao-bg">
+     	<div class="hbao-get">
+        	<div class="hbao-box">
+                <div class="hbao-get-btn"><img data-toggle="modal" data-target="#myhbao" src="images/hbao/hbao-get-btn.png" alt="抢红包" /></div>
+                <span class="hbao-tit">抽到的红包</span>
+            </div>
+       </div>
+        <div class="hbao-get-my">
+        	<div class="hbao-box myhbao-box">
+            	<ul>
+                	<li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+     </div>
+     <!--@ 红包领取 -->
+     
+      <!-- 红包 -->
+        <div class="modal fade" id="myhbao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" style="width: 600px;">
+            <div class="modal-content" style="background: none; width: 600px; ">
+              <div class="modal-header myhbao-header">
+                <button type="button" class="close" data-dismiss="modal" style="font-size: 30px;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              </div>
+              <div class="modal-body myhbao-body">
+              	<h1>活动尚未开始</h1>
+                <p>距离红包开抢时间还有&nbsp;&nbsp;<span style="color: #cc2920; font-size: 24px; font-weight: bold;" id="timeshow"></span></p>
+              
+                <p class="clb" style="margin-top: 30px;">亲&nbsp;&nbsp;请耐心等待哦！</p>
+              </div>
+              <div class="modal-footer myhbao-footer"></div>
+            </div>
+          </div>
+        </div>
+        <!--@ 红包 -->
+     
+     <!-- 红包中奖名单 -->
+     <div class="hbao-bg">
+     	<div class="hbao-name">
+        	<div class="hbao-box">
+            	<span class="hbao-tit name-tit">中奖名单</span>
+            	<div class="hbao-name-box">
+                	<div class="fl name-box-lef">
+                    	<span>中奖ID</span>
+                        <span>中奖金额</span>
+                    </div>
+                    <div class="fl name-slide ">
+                        <ul>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>laladfgfd***</p><p>1000元</p></li>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>lalalafdsgdfgla***</p><p>1000元</p></li>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>laladfgfd***</p><p>1000元</p></li>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>lalalafdsgdfgla***</p><p>1000元</p></li>
+                        </ul>
+                        <ul>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>laladfgfd***</p><p>1000元</p></li>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>lalalafdsgdfgla***</p><p>1000元</p></li>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>laladfgfd***</p><p>1000元</p></li>
+                            <li><p>lalafdsgdfg***</p><p>1000元</p></li>
+                            <li><p>lalalafdsgdfgla***</p><p>1000元</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <span class="hbao-tit role-tit">活动声明</span>
+            </div>
+        	
+        </div>
+     </div>
+     <!--@ 红包中奖名单 -->
+     
+     <!-- 红包规则 -->
+     <div class="hbao-bg">
+    	 <div class="hbao-role">
+         	<div class="hbao-box hbao-role-box">
+            	<div class="role-modal">
+                	<span class="role-modal-tit">活动规则</span>
+                    <p>1）注册有红包：本活动适用于未成为钱吧用户的新手，需在钱吧网站进行账号注册后方可获得红包抽选机会。<br />
+                    2）红包数量：在活动期间，新手进行账号注册，即可抽选三个有效红包，并可查看红包金额。<br />
+					3）红包锁定：红包锁定是根据用户需求将选择其中一个红包作为中奖红包，系统自动将用户所选红包金额转入用户红包账户。<br />
+					4）红包赠送奖励：用户累计赠送成功2个红包。该用户将额外增加一个红包使用机会。用户所赠对方必须为白户（白户是指收到该用户赠送的红包时，未收到其他用户的赠送且未抢到任何红包的用户）对方需在30分钟内进行钱吧账号登录、注册并领取所赠红包。<br />
+                    5）红包使用及红包赠送有效期：活动期间用户所得红包，需在十天内选择使用或赠送。超过十天未使用、赠送红包，红包将过期失效。<br />
+                    6）红包金额有效期：红包转入用户红包账户后，该红包金额有效期为一年。过期后如未达到红包金额提现要求，红包将失效。<br />
+                    7）红包收益说明：红包收益是指，用户中得红包金额后，红包金额每月可产生收益。该红包金额收益有效期为一年，从当月记息,用户第二个月未在钱吧平台进行投资，该红包奖金收益将在第三个月时进行冻结并停止计息。红包收益期间的第一个月、第二个月，红包收益按照红包金额进行收益，第三个月起红包收益按照用户投资金额进行收益。（如在红包收益冻结并停止计息后，用户再次在钱吧平台进行投资，红包收益从再投资当月重新计息，直到红包有效期截至日期。）<br />
+                    8）红包金额提现条件：用户在钱吧平台投资红包金额的100倍，并连续投满一年，即可将红包金额提现。（提现费每笔2元，系统将自动从用户账户扣除。）<br />
+                    9）红包收益提现条件：用户须在钱吧平台至少投资一次钱吧优选计划，方可将红包收益提现。（提现费每笔2元，系统将自动从用户账户扣除。）
+</p>
+                </div>
+                <div class="role-modal role-bottom">
+                	<div class="fl tishi">
+                    	<span class="role-modal-tit">温馨提示</span>
+                        <p>1) 禁止对转发、传播信息进行造假、篡改，一经发现将被取消参与资格。<br />
+                           2) 如对本活动有疑问，请拨打客服电话进行咨询：<span class="font_16">400-626-5178</span><br />
+                           3) 本活动的最终解释权归钱吧所有。</p>
+                    </div>
+                    <div class="fr">
+                    	<img src="images/hbao/weixin.png" alt="扫描钱吧二维码" />
+                        <p style=" padding-top: 10px;line-height: 20px; letter-spacing: 2px;">扫一扫关注“钱吧”<br /> 了解行业最新资讯</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+     <!--@ 红包规则 -->
+     <div class="hbao-bg">
+     	<div class="hbao-footer"></div>
+     </div>
+     
+     
+     
+     
+     
+     <!--@ 红包 -->
+    <!-- footer -->
+	<div class="foot">
+     <div class="foot_box">
+       <div class="fl foot_box_lef">
+       	 <p class="foot_nav">
+                <a class="color_a_hover" href="#" title="首页" >首页</a>
+                <a class="color_a_hover" href="#" title="钱吧介绍" >钱吧介绍</a>
+                <a class="color_a_hover" href="#" title="新手指引" >新手指引</a>
+                <a class="color_a_hover" href="#" title="钱吧CEO" >钱吧CEO</a>
+                <a class="color_a_hover" href="#" title="帮助中心" >帮助中心</a>
+                <a class="color_a_hover" href="#" title="联系我们" >联系我们</a>
+         </p>
+            
+            <div class="clb cabout"><h2>关注我们</h2>
+            	<ul>
+                    <li><a href="#"  class="weibo hovereffect" rel="nofollow" title="关注微博"><i class="icons">钱吧网官方新浪微博</i></a></li>
+                    <li><a href="javascript:;" class="weixin hovereffect" rel="nofollow" title="扫描微信"><i class="icons">钱吧网官方微信</i></a></li>
+                </ul>
+                <h2 class="app-lf" style="display:block">手机上钱吧</h2>
+                <ul style="display:block">
+                    <li><a href="#"  class="ios hovereffect" rel="nofollow"><i class="icons"></i></a></li>
+                    <li><a href="#" class="android hovereffect" rel="nofollow"><i class="icons"></i></a></li>
+                </ul>
+            </div>
+       </div>
+       <div class="fr foot_box_rig">
+            <p>客服热线（工作时间 8:00-22:00）<br /><span class="font_Arial">400-626-5178</span></p>
+       </div>
+     </div>
+    </div>
+    <!--@ footer -->
+    
+    <!-- footer_bottom -->
+    <div class="clb foot_bottom">
+    	<div class="foot_bottom_box">
+        	<ul class="ibelieve">
+                <li class="it1"><a href="#" title="可信网站" target="_blank"><img src="images/renzheng/icon1.jpg" alt="可信网站" /></a> </li>
+                <li class="it2"><a href="#" title="安全联盟官网认证" target="_blank"><img src="images/renzheng/icon2.jpg" alt="安全联盟官网认证" /></a> </li>
+                <li class="it3"><a href="#" title="360网站安全监测" target="_blank"><img src="images/renzheng/icon3.jpg" alt="360网站安全监测" /></a> </li>
+                <li class="it4"><a href="#" title="NORTON" target="_blank"><img src="images/renzheng/icon4.jpg" alt="NORTON" /></a></li>
+                <li class="it5"><a href="#" title="认证联盟" target="_blank"><img src="images/renzheng/icon5.jpg" alt="认证联盟" /></a> </li>
+                <li class="it5"><a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1097967874" title="企业信用评级证书" target="_blank"><img src="images/renzheng/icon6.jpg" alt="企业信用评级证书" /></a> </li>
+              </ul>
+        	<p class="clb bottom_box_link">友情链接：<a class="color_a_hover" href="#" title="开心财富" >开心财富</a>|<a class="color_a_hover" href="#" title="开心E贷" >开心E贷</a>|<a class="color_a_hover" href="#" title="汇付天下" >汇付天下</a>|<a class="color_a_hover" href="#" title="国培机构" >国培机构</a>|<a class="color_a_hover" href="#" title="网贷帮" >网贷帮</a>|<a class="color_a_hover" href="#" title="网贷之家" >网贷之家</a></p>
+            <p>Copyright©2012-2014 钱吧. All Rights Reserved.鲁ICP备14003761</p>
+        </div>
+    </div>
+    <!--@ footer_bottom -->
+    
+    <!-- 浮窗代码开始 -->
+    <div id="code"></div>
+    <div id="code_img"></div>
+    <a id="gotop" href="javascript:void(0)"></a>
+    <!-- 代码结束 -->
+
+	<!-- 登录弹窗Modal -->
+	<div id="myModal" class="modal fade" role="dialog" aria-hidden="true" >
+    	<div class="modal-dialog">
+        	<div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button></div>
+                    <div class="modal-body">
+                        <div class="fl log_lef">
+                        	<p class="wx_tit">扫描微信，关注我们</p>
+                            <div class="wx"><img src="images/qb_weixin.jpg" alt="" /></div>
+                            <p class="sm">打开微信扫描二维码</p>
+                        </div>
+                        <div class="fl log_rig">
+                            <p class="log_tit">账户登录</p>
+                            <input class="text name" name="name" type="text" value="用户名/手机号/邮箱" />
+                            <input class="text pass" name="pass" type="text" value="密码" />
+                            <input name="submit" type="submit" class="btn btn_lv btn_wid75_lv submit" value="登 录" />
+                        </div>	
+                    </div>
+                    <div class="modal-footer">
+                    	<p><a href="#" title="">忘记密码？</a>|<a href="#" title="">注册新账号</a>|<a href="#" title="">帮助中心</a></p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--@ 登录弹窗Modal -->    
+     <script type="text/javascript">
+    	$(document).ready(function() {
+		  <!-- 下拉菜单 -->
+          $("#nav_a").click(function(){$("#nav_div").toggle();});
+		})
+	 </script>   
+        
+	<script>
+		$(function(){
+			var hongbao = 0;
+			var hb_num =1000 ;//红包数额，0表示没抽到
+			var kaishi =0 ;//判断活动是不是开始了，0表示没有
+			var denglu = 1;//判断是不是登陆了，0表示没有
+			if(kaishi == 0){
+				if(denglu == 0){
+					$(".h_qianghongbao").attr("data-target","#myModal");
+				}else{
+					$(".h_qianghongbao").attr("data-target",".butt_meikaishi");
+					$("body").one("click",function(){
+						$(".butt_meikaishi").hide();
+					})
+					$(".butt_meikaishi").click(function(){
+						$(".close").click();
+					});
+				}
+				
+			}
+				
+			
+			function li_jiaxing(){
+				$(".name-slide li").each(function(){
+					var text = $("p:first",this).html().replace("*","");
+					if(text.length > 4){
+						text = text.substr(0, 4);
+						$("p:first",this).html(text+"***");
+					}
+				})
+			}
+			$(".name-slide ul:last").css("margin-top","80px");
+			li_jiaxing();
+			var gd = setInterval(function(){
+				li_jiaxing()
+				$(".name-slide ul:first").animate({"margin-top":"-80px"},2000,"swing");
+				$(".name-slide ul:last").animate({"margin-top":"0px"},2000,"swing",function(){
+					$(".name-slide ul:first").css("margin-top","80px");
+					$(".name-slide ul:last").after($(".name-slide ul:first"));
+				});
+			},4000);
+			/*************大红包****************/
+			$(".h_qianghongbao").unbind("click").click(function(){
+				var time = 1100;
+				var isie;
+				var ua=window.navigator.userAgent;
+					if(/MSIE/g.test(ua)){  
+						isie = 1;
+					} else{
+						isie = 0;
+					}
+				if(isie)time=100;
+				if(hb_num == 0){
+					$(".hb_h_money_num").html("<p style='font-size:100px;'>谢谢惠顾</p>");
+					$(".yuan").html("");
+					$(".hbaolingqu").html("继续抽奖");
+				}else{
+					$(".hbaolingqu").html("打开红包");
+					$(".hb_h_money_num").html(hb_num);
+					$(".yuan").html("元");
+				}
+				setTimeout(function(){
+					var number = parseFloat($('.hb_h_money_num').html());
+					$('.hbao02').show();
+					$('.hb_h_money_num').show();
+					if(isie){
+						$(".hbaogaizi").removeClass("hbaogaizi_start").addClass("hbaogaizi_end");
+					}else{
+						$(".hbaogaizi").addClass("shangxia");
+					}
+					var shangxia = setTimeout(function(){
+						if(isie){
+							$(".hbaogaizi").css('background-image','url(images/hbao/sj_1.png)').css('z-index','4');
+						}else{
+							$(".hbaogaizi").removeClass("shangxia").removeClass("hbaogaizi_start").addClass("hbaogaizi_end").css('z-index','4');
+						}
+						$('.hbao02').animate({'margin-top':'-100px'},1000,function(){
+							$(".hbao04").show();
+							setInterval(function(){
+								$('.hbao-bg').toggleClass("hbao-xx");
+							},500);
+							$('.hbaolingqu').unbind("click").click(function(){
+								$(".hbaogaizi").css('z-index','6').removeClass("hbaogaizi_end").addClass("hbaogaizi_start");
+								$('.hbao02').hide().css("margin-top","0px");
+								$(".hbao04").hide();
+								if(hb_num != 0){
+									$(".hongbao_"+hongbao).fadeIn(2000);
+									hongbao++;
+								}
+								if(hongbao >4){$('.h_qianghongbao').remove();}
+								
+							});
+							$('body').one('click',function(){$('hbaolingqu').click();})
+						});
+					},time);
+				},1200);	
+			});
+	/*****************************************倒计时******************************************/
+	 var needtime; 
+	 var tiaodong; 
+	 var times = new Array();
+	 $(".time_style .time_t:odd").css({"margin-top":"0px","background-color":"#ff6602","color":"#fff"});
+	   var date1 = new Date($("#timeset").html()); 
+	  var date0 = new Date();
+	  needtime = parseInt(date1.getTime() - date0.getTime())/1000; 
+	  tiaodong = window.setInterval(SetRemainTime, 1000); //间隔函数，1秒执行 
+	 //将时间减去1秒，计算天、时、分、秒 
+	 function SetRemainTime() { 
+		  if (needtime > 0) { 
+		   needtime = needtime - 1; 
+		   var second = Math.floor(needtime % 60);             // 计算秒     
+		   var minite = Math.floor((needtime / 60) % 60);      //计算分 
+		   var hour = Math.floor((needtime / 3600) % 24);      //计算小时 
+		   var day = Math.floor((needtime / 3600) / 24);        //计算天 
+		   $("#timeshow").html(day + "天" + hour + "小时" + minite + "分" + second + "秒"); 
+		
+		   times[0] = parseInt(day/10);
+		   times[1] = parseInt(day%10);
+		   times[2] = parseInt(hour/10);
+		   times[3] = parseInt(hour%10);
+		   times[4] = parseInt(minite/10);
+		   times[5] = parseInt(minite%10);
+		   times[6] = parseInt(second/10);
+		   times[7] = parseInt(second%10);
+			$("#timeshow").html(times[0]+""+times[1] + "天" + times[2] + ""+times[3]+":" + times[4]+""+times[5]+":" + times[6] +""+times[7]); 
+			var i = 7;
+			var p = setInterval(function(){
+				var tim = times[i];
+				var tt = $(".time_show").find(".time_style").eq(i);
+				var first = tt.find(".time_t").eq(0);
+				var last  = tt.find(".time_t").eq(1);
+				first.html(tim);
+				if(tim != last.html()){
+					first.animate({"margin-top":"0px"},100,function(){
+						first.css({"margin-top":"-80px"});
+						last.html(tim);
+					});
+				}
+				i--;
+				if( i < 0)window.clearInterval(p);
+			},100);
+	  } else {//剩余时间小于或等于0的时候，就停止间隔函数 
+	   window.clearInterval(tiaodong); 
+	   //这里可以添加倒计时时间为0后需要执行的事件 
+	  } 
+	 } 
+	});
+</script>
+    
+</body>
+</html>

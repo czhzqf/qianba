@@ -1,0 +1,1097 @@
+﻿/*!
+ * CSS - My Account
+ * Version - 1.0.0
+ * Modify By Wang Ping
+ * Date: 07-03-2013 15:34:48 (GMT Time)
+ */
+/*bank logo*/
+.logo-bank{width:130px;height:22px;overflow:hidden;font-size:0;line-height:0;text-indent:-9999px;display:inline-block;background: url(../../../local/img/banks/logo-banks.png) no-repeat -999px -999px; position:absolute; left:50%; top:50%; margin:-11px 0 0 -65px}
+.bank-102{ background-position:0 0; width:96px; height:22px; margin:-11px 0 0 -48px}
+.bank-105{ background-position:0 -66px; width:100px; height:20px; margin:-10px 0 0 -50px}
+.bank-103{ background-position:0 -100px; width:100px; height:20px; margin:-10px 0 0 -50px}
+.bank-403{ background-position:0 -496px; width:117px; height:17px; margin:-9px 0 0 -59px}
+.bank-104{ background-position:0 -132px; width:72px; height:22px; margin:-11px 0 0 -36px}
+.bank-301{ background-position:0 -331px; width:100px; height:20px; margin:-10px 0 0 -50px}
+.bank-308{ background-position:0 -33px; width:80px; height:20px; margin:-10px 0 0 -40px}
+.bank-303{ background-position:0 -297px; width:100px; height:20px; margin:-10px 0 0 -50px}
+.bank-999{ background-position:0 -264px; width:82px; height:19px; margin:-10px 0 0 -41px}
+.bank-310{ background-position:0 -165px; width:75px; height:22px; margin:-11px 0 0 -38px}
+.bank-304{ background-position:0 -626px; width:90px; height:22px; margin:-11px 0 0 -45px}
+.bank-306{ background-position:0 -430px; width:102px; height:20px; margin:-10px 0 0 -51px}
+.bank-302{ background-position:0 -396px; width:80px; height:22px; margin:-11px 0 0 -40px}
+.bank-309{ background-position:0 -231px; width:90px; height:20px; margin:-10px 0 0 -45px}
+.bank-307{ background-position:0 -199px; width:100px; height:20px; margin:-10px 0 0 -50px}
+.bank-305{ background-position:0 -365px; width:100px; height:17px; margin:-9px 0 0 -50px}
+.bank-201{ background-position:0 -1406px; width:81px; height:22px; margin:-11px 0 0 -41px}
+.bank-616{ background-position:0 -1466px; width:94px; height:20px; margin:-10px 0 0 -48px}
+.bank-202{ background-position:0 -1534px; width:116px; height:20px; margin:-9px 0 0 -59px}
+.bank-671{ background-position:0 -1375px; width:89px; height:20px; margin:-10px 0 0 -45px}
+.bank-203{ background-position:0 -1346px; width:113px; height:20px; margin:-9px 0 0 -59px}
+.bank-712{ background-position:0 -1500px; width:75px; height:21px; margin:-11px 0 0 -38px}
+.bank-904{ background-position:0 -1634px; width:84px; height:14px; margin:-6px 0 0 -42px}
+.bank-761{ background-position:0 -1437px; width:46px; height:20px; margin:-11px 0 0 -25px}
+.bank-501{ background-position:0 -1318px; width:93px; height:17px; margin:-8px 0 0 -48px}
+.bank-771{ background-position:0 -1662px; width:84px; height:14px; margin:-6px 0 0 -42px}
+.bank-502{ background-position:0 -991px; width:109px; height:19px; margin:-9px 0 0 -55px}
+.bank-772{ background-position:0 -758px; width:73px; height:21px; margin:-11px 0 0 -40px}
+.bank-503{ background-position:0 -1262px; width:113px; height:21px; margin:-9px 0 0 -58px}
+.bank-773{ background-position:0 -1689px; width:84px; height:14px; margin:-6px 0 0 -42px}
+.bank-504{ background-position:0 -1291px; width:86px; height:21px; margin:-10px 0 0 -45px}
+.bank-774{ background-position:0 -1717px; width:56px; height:14px; margin:-6px 0 0 -32px}
+.bank-506{ background-position:0 -1232px; width:111px; height:21px; margin:-9px 0 0 -55px}
+.bank-781{ background-position:0 -1202px; width:111px; height:20px; margin:-9px 0 0 -56px}
+.bank-507{ background-position:0 -1172px; width:81px; height:19px; margin:-9px 0 0 -41px}
+.bank-783{ background-position:0 -1745px; width:84px; height:14px; margin:-6px 0 0 -42px}
+.bank-593{ background-position:0 -1140px; width:122px; height:20px; margin:-9px 0 0 -61px}
+.bank-784{ background-position:0 -1083px; width:63px; height:18px; margin:-9px 0 0 -38px}
+.bank-595{ background-position:0 -1110px; width:80px; height:21px; margin:-10px 0 0 -40px}
+.bank-785{ background-position:0 -1774px; width:56px; height:14px; margin:-6px 0 0 -32px}
+.bank-597{ background-position:0 -1051px; width:94px; height:21px; margin:-10px 0 0 -48px}
+.bank-786{ background-position:0 -1801px; width:84px; height:14px; margin:-6px 0 0 -42px}
+.bank-611{ background-position:0 -1022px; width:110px; height:21px; margin:-10px 0 0 -55px}
+.bank-787{ background-position:0 -953px; width:102px; height:27px; margin:-13px 0 0 -54px}
+.bank-313{ background-position:0 -463px; width:92px; height:17px; margin:-8px 0 0 -48px}
+.bank-cft{ background-position:0 -1565px; width:71px; height:25px; margin:-11px 0 0 -40px}
+.bank-gfb{ background-position:0 -1598px; width:73px; height:24px; margin:-11px 0 0 -40px}
+
+.bank-small{width:30px;height:30px;overflow:hidden;font-size:0;line-height:0;text-indent:-9999px;display:inline-block;background: url(../../../local/img/banks/banks-small.png) no-repeat -999px -999px; position:absolute;}
+.banksmall-102{ background-position:0 -2px}
+.banksmall-105{ background-position:0 -66px}
+.banksmall-103{ background-position:0 -98px}
+.banksmall-403{ background-position:0 -464px}
+.banksmall-104{ background-position:0 -130px}
+.banksmall-301{ background-position:0 -315px}
+.banksmall-308{ background-position:0 -33px}
+.banksmall-303{ background-position:0 -285px}
+.banksmall-310{ background-position:0 -162px}
+.banksmall-304{ background-position:0 -587px}
+.banksmall-306{ background-position:0 -405px}
+.banksmall-302{ background-position:0 -374px}
+.banksmall-309{ background-position:0 -225px}
+.banksmall-307{ background-position:0 -192px}
+.banksmall-305{ background-position:0 -342px}
+.banksmall-201{ background-position:0 -1330px}
+.banksmall-616{ background-position:0 -1388px}
+.banksmall-202{ background-position:0 -1438px}
+.banksmall-671{ background-position:0 -1300px}
+.banksmall-203{ background-position:0 -1268px}
+.banksmall-712{ background-position:0 -1415px}
+.banksmall-761{ background-position:0 -1358px}
+.banksmall-501{ background-position:0 -1240px}
+.banksmall-502{ background-position:0 -618px}
+.banksmall-772{ background-position:0 -712px}
+.banksmall-503{ background-position:0 -1182px}
+.banksmall-504{ background-position:0 -1212px}
+.banksmall-506{ background-position:0 -1150px}
+.banksmall-781{ background-position:0 -1118px}
+.banksmall-507{ background-position:0 -1086px}
+.banksmall-593{ background-position:0 -1053px}
+.banksmall-784{ background-position:0 -987px}
+.banksmall-595{ background-position:0 -1020px}
+.banksmall-597{ background-position:0 -953px}
+.banksmall-611{ background-position:0 -922px}
+.banksmall-787{ background-position:0 -890px}
+.banksmall-313{ background-position:0 -434px}
+/*menu*/
+.dialog-foot .bank-action{float: left;position: relative;left: 50%; padding-top:10px}
+.dialog-foot .bank-action a{ padding:0 15px 0 25px; height:30px; line-height:30px; margin-right:10px; float:left; display:inline; white-space: nowrap; position: relative; left: -50%; overflow:hidden}
+.dialog-foot .bank-action .icons{ position:absolute; left:13px; top:10px}
+.dialog-foot .bank-delete{ background:#fff; color:#475058}
+.dialog-foot .bank-bind{ background:#15456f; color:#fff}
+.dialog-foot .bank-bind:visited{ color:#fff}
+.dialog-foot .tips{ position:absolute; top:15px; right:10px}
+.dialog-foot .mError{ position:absolute; left:80px; top:15px; color:#C30; display:none}
+
+.sidebar-item{ padding:20px 10px 15px; border-bottom:1px solid #e8ecef; overflow:hidden; zoom:1; text-align:center}
+.account-status h2{ font-size:14px; font-weight:bold; text-align:left; width:110px; height:30px; margin:0 auto; overflow:hidden}
+.account-status .auth-opts{ height:30px; overflow:hidden; width:110px; margin:0 auto 15px}
+.account-status .auth-opts ul{ width:180px}
+.account-status .auth-opts li{ height:30px; width:30px; overflow:hidden; float:left; display:inline; margin-right:10px}
+.account-status .auth-rate{ height:10px; width:110px; font-size:0; line-height:0; overflow:hidden; margin:0 auto 10px; background:#e8ecef; border-radius:15px}
+.account-status .auth-rate div{ background:#18b160; height:10px; float:left; width:0%; border-radius:15px}
+.account-status .auth-level em{ color:#18b160; padding-right:10px}
+.auth-level a,.auth-level a:visited{color:#349cd8}
+
+.balances { font-size:16px}
+.balances h2{ color:#333}
+.balances h3{ color:#15456f}
+.balances .recharge{ height:45px; padding-top:5px}
+.balances .button-recharge{ width:60px; font-size:16px; height:30px; line-height:28px; text-align:left; margin:0 auto; padding:0 0 0 50px}
+.balances .button-rmb{ position:absolute; left:50%; top:5px; margin-left:-30px}
+
+.button-un-name{background-position: -41px -31px}
+.button-un-tels{background-position: -72px -31px}
+.button-un-pwds{background-position: -103px -31px}
+.button-ve-name{background-position: -41px 0}
+.button-ve-tels{background-position: -72px 0}
+.button-ve-pwds{background-position: -103px 0}
+.nav-ico{width:16px;height:16px;overflow:hidden;font-size:0;line-height:0;text-indent:-9999px;display:inline-block;background:url(../../../local/img/common/nav.png) no-repeat}
+.nav-account { background-position: 0 0}
+.nav-account-active { background-position: -20px 0}
+.nav-transaction { background-position: 0 -20px}
+.nav-transaction-active { background-position: -20px -20px}
+.nav-cash { background-position: 0 -140px}
+.nav-cash-active { background-position: -20px -140px}
+.nav-card { background-position: 0 -40px}
+.nav-card-active { background-position: -20px -40px}
+.nav-chart { background-position: 0 -80px}
+.nav-chart-active { background-position: -20px -80px}
+.nav-invest { background-position: 0 -60px}
+.nav-invest-active { background-position: -20px -60px}
+.nav-redeem { background-position: 0 -100px}
+.nav-redeem-active { background-position: -20px -100px}
+.nav-deal { background-position: 0 -120px}
+.nav-deal-active { background-position: -20px -120px}
+.nav-msg { background-position: 0 -157px}
+.nav-msg-active { background-position: -20px -157px}
+.nav-bag { background-position: 0 -175px}
+.nav-bag-active { background-position: -20px -175px}
+.nav-autoinvest { background-position: 0 -193px}
+.nav-autoinvest-active { background-position: -20px -193px}
+.apply-menu{ overflow:hidden; zoom:1; padding:10px 0 10px 0}
+.apply-menu dt{height:40px; line-height:40px; padding-left:15px}
+.apply-menu dd{ height:30px; line-height:30px; padding:5px; font-size:14px}
+.apply-menu dd a{ display:block; width:100%; text-indent:60px; position:relative; color:#666}
+.apply-menu dd a:visited{color:#666}
+.apply-menu dd a:hover{ text-decoration:none;color:#349cd8}
+.apply-menu dd .nav-ico{ position:absolute; left:32px; top:7px}
+.apply-menu dd .nav-card{top:9px}
+.apply-menu dd.current{ background:#f0f4f7}
+.apply-menu dd.current a,.console-menu dd.current a:visited{ color:#349cd8}
+.apply-menu dd.current .nav-account, .apply-menu a:hover .nav-account{background-position: -20px 0}
+.apply-menu dd.current .nav-transaction,.apply-menu a:hover .nav-transaction{background-position: -20px -20px}
+.apply-menu dd.current .nav-cash,.apply-menu a:hover .nav-cash{background-position: -20px -140px}
+.apply-menu dd.current .nav-card,.apply-menu a:hover .nav-card{ background-position: -20px -40px}
+.apply-menu dd.current .nav-chart,.apply-menu a:hover .nav-chart{background-position: -20px -80px}
+.apply-menu dd.current .nav-invest,.apply-menu a:hover .nav-invest{background-position: -20px -60px}
+.apply-menu dd.current .nav-redeem,.apply-menu a:hover .nav-redeem{background-position: -20px -100px}
+.apply-menu dd.current .nav-deal,.apply-menu a:hover .nav-deal{background-position: -20px -120px}
+.apply-menu dd.current .nav-msg,.apply-menu a:hover .nav-msg{background-position: -20px -157px}
+.apply-menu dd.current .nav-bag,.apply-menu a:hover .nav-bag{background-position: -20px -175px}
+.apply-menu dd.current .nav-autoinvest,.apply-menu a:hover .nav-autoinvest{background-position: -20px -193px}
+/*home*/
+.title-items{ position:relative; height:70px; overflow:hidden}
+.title-items .toback{ position:absolute; right:0; top:20px; z-index:5; float:left; height:30px; line-height:30px; width:60px; background:#e8ecef; text-align:center; text-indent:10px; color:#475058}
+.title-items .toback .icons{ position:absolute; left:10px; top:10px}
+.title-items .num{ color:#fff; background:#15456f; padding:0 5px; display:inline-block; margin:0 3px; height:20px; line-height:20px; font-size:14px}
+.title-items .line{ height:1px; font-size:0; line-height:0; overflow:hidden; float:left; background:#e7ecee; width:100%; position:absolute; left:0; top:35px}
+.title-items h2,.title-items .r{ font-size:16px; height:30px; line-height:30px; color:#69737b; position:absolute; left:20px; top:20px; z-index:3; padding:0 15px; background:#fff}
+.title-items .r{ font-size:14px; color:#8a949c; left:auto; right:30px; padding-right:0}
+.title-items .light-red{ position:relative; padding-left:12px; display:inline-block}
+.title-items .arrow-red-down{ position:absolute; left:0; top:9px}
+.backtohis .toback{ left:0; right:auto}
+.backtohis h2{ left:60px}
+
+.backele-show{ margin-left:80px; position:relative; padding-left:20px}
+.backele-show .icons{ position:absolute; left:0; top:2px}
+.back-forbiden{ color:#475058; cursor:default}
+.back-forbiden:hover{ text-decoration:none}
+
+.title-sub h2,.title-sub .r{ font-size:14px}
+.title-sub .num{ font-size:12px; font-family:Tahoma, Geneva, sans-serif}
+
+.billboard{ border-radius:3px; margin-left:10px; background:#15456f; color:#fff; position:relative; display:inline-block; height:24px; width:118px; padding:0 5px; text-align:left; line-height:22px}
+.billboard a{ display:block; color:#fff; width:100%}
+.billboard a:visited{ color:#fff}
+.billboard .icons{ width:16px; height:13px; background-position:-85px -80px; position:absolute; top:5px; right:5px}
+
+.excel-export{position:relative; display:inline-block; height:24px; line-height:24px; padding-right:15px; color:#475058}
+.excel-export a,.excel-export a:visited{ color:#475058}
+.excel-export .icons{ width:10px; height:9px; background-position:-111px -66px; position:absolute; top:7px; right:0}
+
+
+.stats-items{ background:#f0f4f7; overflow:hidden; border:0; height:110px; width:100%}
+.stats-items .items{overflow:hidden; height:70px; width:100%; padding:20px 0; margin-left:3px; position:relative}
+.stats-entry{ width:25%; float:left; display:inline; height:70px; font-size:14px; margin-left:-2px; border-left:1px solid #d0d5d9; text-align:center}
+.stats-entry b{ margin-left:-15px; font-weight:normal}
+.stats-entry em{ color:#fc8936}
+.stats-entry ins{ font-family:Microsoft YaHei, Helvetica, Tahoma; font-style:normal; text-decoration:none}
+.stats-entry .bk{ background:#fc8936; padding:0 3px; color:#fff}
+.stats-entry dt{ position:relative; height:20px; padding-top:3px; margin:0 2px 0 1px; color:#8a949c}
+.stats-entry dt .yhelp,.stats-entry dd .yhelp{ position:absolute; left:auto; top:7px; margin-left:3px}
+.stats-entry dd .yhelp{ top:5px}
+.stats-entry dd{ margin:0 2px 0 1px; height:40px}
+.stats-entry dd strong{font-size:24px; display:block; height:30px; overflow:hidden; font-family:Tahoma; font-weight:normal}
+.stats-entry dd p{ position:relative; height:24px; line-height:22px; overflow:hidden}
+
+.assets-statistics{ height:240px; overflow:hidden; font-size:12px; position:relative; background:#fff}
+.assets-statistics .load32{  height:240px; width:100%}
+.assets-statistics .record{ height:240px; line-height:240px; text-align:center}
+.assets-animate{ position:absolute; left:0; top:0; z-index:5; background:#fff; width:100%; font-size:0; line-height:0; overflow:hidden; height:240px}
+.assets-group{ height:160px; width:79%; position:absolute; left:15px; top:40px}
+.assets-group .assets-entry{ height:160px; width:100%; position:relative}
+.assets-group .items{ float:left; display:inline; width:16%; height:100%; position:relative; border-bottom:1px solid #abb0b5}
+.assets-group .tracker{ width:100%; position:absolute; bottom:0; left:0; border-top:1px dashed #abb0b5}
+.assets-group .perbar{width:60%; height:100%; background:#15456f; position:absolute; bottom:0; left:0}
+.assets-group .fillbar{ background:#fff; width:100%; position:absolute; right:40%; bottom:0; border-top:1px dashed #abb0b5}
+.assets-group .money,.assets-group h2{ width:100%; position:absolute; left:0; top:-20px; font-weight:normal}
+.assets-group h2{ top:auto; bottom:-30px; height:20px; line-height:20px; display:block}
+.assets-group .icons{ position:absolute; left:auto; top:4px; margin-left:3px}
+.assets-group .line{ position:absolute; top:-1px; right:0; background:#fff; width:40%; height:101%; line-height:0; overflow:hidden}
+.assets-group .tracker_01{ _bottom:-1px}
+
+.assets-sum{ height:160px; width:24%; position:absolute; right:15px; top:40px; border-bottom:1px solid #abb0b5}
+.assets-sum ul{ height:160px; overflow:hidden}
+.assets-sum li{ border-bottom:3px solid #fff; height:52px; line-height:52px; background:#f0f4f7}
+.assets-sum .txt{ float:left; display:inline; padding-left:5px}
+.assets-sum .num{ float:right; padding-right:5px}
+.assets-sum .sums{ width:100%; position:absolute; left:0; bottom:-30px; height:20px; line-height:20px}
+
+.section-items{ overflow:hidden; zoom:1; position:relative; clear:both; min-height:251px}
+.section-items .title{height:40px; line-height:40px; width:100%; position:absolute; left:0; top:0; font-weight:normal; background:#f0f4f7;border-bottom:1px solid #d3d8dc}
+.section-items .title h2{ position:absolute; left:290px}
+.section-items .button-link{ position:absolute; right:20px}
+.section-items a.button-link{ display:inline-block; padding-right:10px}
+.section-items a.button-link .icons{ width:6px; height:9px; background-position:-126px -66px; position:absolute; top:16px; right:0}
+.section-items .load32-bss{ width:100%; height:214px; line-height:214px; position:absolute; left:0; top:40px}
+.section-items .err-bss{color:#C00; text-align:center; width:100%; height:214px; line-height:214px; position:absolute; left:0; top:40px}
+.back-calendar{ width:274px; float:left; display:inline; overflow:hidden; position:relative; z-index:5; color:#475058; font: 14px/1.5 Tahoma, Microsoft YaHei}
+.back-calendar .load32{ width:273px; height:254px; line-height:254px; border-right:1px solid #d3d8dc}
+.back-calendar .onerr{ color:#C00; text-align:center; width:273px; height:254px; line-height:254px; border-right:1px solid #d3d8dc}
+.calendar-content{ overflow:hidden; zoom:1; width:274px; position:relative; border-right:1px solid #d3d8dc; background:#fff}
+.calendar-content li{ width:38px; height:36px; line-height:36px; margin:-1px 0 0 -1px; border:1px solid #d3d8dc; font-size:14px; float:left; display:inline; overflow:hidden; text-align:center; cursor:pointer; font-weight:bold; position:relative}
+.calendar-content .head{ height:40px; line-height:40px; width:272px; position:relative; text-align:center; font-size:16px; background:#f0f4f7;border-bottom:1px solid #d3d8dc; border-right:1px solid #d3d8dc}
+.calendar-content .button{ width:7px; height:10px; font-size:0; text-indent:-9999em; float:left; overflow:hidden; position:absolute; top:17px; cursor:pointer}
+.calendar-content .prev{ left:15px; background-position: -75px -87px}
+.calendar-content .next{ right:16px; background-position: -67px -87px}
+.calendar-content .price{ color:#ff6600; display:block; font-weight:normal}
+.calendar-content .state-hover,.calendar-content .state-active{background:#e8ecef; color:#46a4da}
+.calendar-content .state-active{ cursor:default}
+.calendar-content .state-current{ color:#15456f}
+.calendar-content .other-month{ cursor:default; color:#a1acb4}
+.calendar-content .days-entry{ overflow:hidden; zoom:1}
+.calendar-content .state-disabled{ cursor:default}
+.calendar-content div.state-disabled{opacity:.35; filter: Alpha(Opacity=35)}
+.calendar-content li.state-disabled b{ opacity:.75; filter: Alpha(Opacity=75)}
+.calendar-content .week-entry{ height:26px}
+.calendar-content .week-entry li{ height:25px; line-height:25px; font-size:12px; font-weight:normal; color:#888888}
+.calendar-content .payment-date{ width:11px; height:11px; background-position:-69px -65px; position:absolute; right:0; top:0}
+
+.back-section{ overflow:hidden; margin-left:273px; height:252px; display:none}
+.back-section .load32{  height:80px; width:100%; margin-top:105px}
+.back-section .fileError{ height:80px; width:100%; text-align:center; margin-top:133px}
+.back-section .noPaymentRecord{ height:80px; line-height:80px; text-align:center; display:none}
+.back-news{ height:90px; position:relative; margin:105px 30px 0; overflow:hidden}
+.back-news .icons{ position:absolute; top:50%; width:13px; height:21px; margin-top:-11px; font-size:0; text-indent:-9999em; float:left; overflow:hidden}
+.back-news .prev{ left:0; background-position: -40px -65px}
+.back-news .next{ right:0; background-position: -53px -65px}
+.back-news .disabled{opacity:.35; filter: Alpha(Opacity=35); cursor:default}
+.back-news dl{ width:250px; margin:0 auto; position:relative; padding-left:90px; height:90px; overflow:hidden; position:absolute; left:50%; top:-90px; opacity:0; margin-left:-155px}
+.back-news dt{ height:90px; width:80px; position:absolute; left:0; top:0; text-align:center}
+.back-news dt .m{ background:#e8ecef; color:#666; height:45px; line-height:45px; display:block; border-radius:3px 3px 0 0; font-size:20px}
+.back-news dt .d{ height:45px; line-height:45px; display:block; background:#15456f; color:#fff; border-radius:0 0 3px 3px; font-size:32px; font-family:Tahoma}
+.back-news dd{ height:90px; font-size:14px; line-height:normal}
+.back-news dd a{ display:inline-block; color:#fff; background:#15456f; padding:0 5px; font-size:14px; margin:0 5px; font-family:Tahoma}
+.back-news dd a:visited{ color:#fff}
+.back-news em{ color:#fc8936}
+.back-news dd table{ height:90px; width:100%}
+.back-news dd td{ height:90px}
+.back-news dd p{ padding-bottom:3px}
+
+/*交易记录*/
+.trade-filter{ padding-bottom:10px}
+.filter-items{ overflow:hidden; zoom:1; padding-top:10px; margin:0 40px; line-height:30px}
+.filter-items dt{ width:65px; float:left; display:inline}
+.filter-items dd{ margin-left:80px; height:30px}
+.filter-items dd a{ display:inline-block; padding:0 10px; height:24px; line-height:24px; margin:4px 10px 0 0; float:left; display:inline; border-radius:3px; color:#475058}
+.filter-items dd a:visited{ color:#475058}
+.filter-items dd a:hover{ color:#fff; background:#15456f; text-decoration:none}
+.filter-items a.selected,.filter-items a.selected:visited{color:#fff; background:#15456f; cursor:default}
+.query-input{ float:left; display:inline; padding-right:20px; height:30px}
+.query-input label{ padding:0 5px; float:left; display:inline}
+.query-input input{ height:18px; line-height:18px; width:90px; padding:6px 0 5px 35px; padding:6px 0 5px 25px\9; text-indent:10px\9; font-family:Tahoma; border:0; background:#f0f4f7 url(../../../local/img/common/ui-date.png) no-repeat 10px 9px; border-radius:3px; float:left; display:inline; overflow:hidden; cursor:default}
+
+.trade-table{ overflow:hidden; zoom:1; font-size:12px}
+.trade-table table{ width:100%; text-align:left; line-height:1.6}
+.trade-table th,.trade-table td{padding:15px 5px 15px 43px}
+.trade-table th{ background:#e8ecef; vertical-align:middle; text-align:left; font-size:13px}
+.trade-table td{ border-bottom:1px solid #e8ecef; vertical-align:middle}
+.trade-table .over,.trade-table .double{ background:#fafbfc}
+.trade-table .amount{ position:relative}
+.trade-table .amount .icons{ margin-left:5px}
+
+/*我的红包*/
+/*.package-table li.col_1{background:#09C}
+.package-table li.col_2{background:#960}
+.package-table li.col_3{background:#F60}
+.package-table li.col_4{background:#999}
+.package-table li.col_5{background:#396}
+.package-table li.col_6{background:#939}*/
+
+.package-table{ font-size:12px; overflow:hidden; zoom:1}
+.package-table .items{ height:59px; overflow:hidden; background:#fff; border:1px solid #fff; border-bottom:1px solid #e9edef}
+
+/*免提现额度　　edited by shixiaozhen 2014-3-11*/
+.package-table li{ float:left; display:inline; text-align:left; width:16%; height:42px; overflow:hidden; padding-top:17px}
+.package-table li.col_1{ width:14%; text-align:right; padding-right:30px}
+.package-table li.col_2{ width:12%;}
+.package-table li.col_3{ width:13%; text-align:left; padding-right:20px}
+.package-table li.col_4{ width:15%; padding-right:20px}
+.package-table li.col_5{ width:14%; padding-right:10px}
+.package-table li.col_6{ width:10%; text-align:left; padding-right:15px; padding-top:10px; height:49px}
+.package-table li.col_7{ width:8%; text-align:center}
+/*免提现额度　　edited by shixiaozhen 2014-3-11*/
+
+.package-table .status{ position:relative}
+.package-table .title{ font-size:13px; height:40px; line-height:40px; background:#f0f4f7; font-weight:bold}
+.package-table .title li{height:40px; line-height:40px; padding-top:0}
+.package-table .double{ background:#fafbfc}
+.package-table .status b{ font-weight:lighter; margin-right:5px}
+
+
+/*充值提现*/
+.cash-top{ height:90px}
+.recharge-entry{ width:25%; float:left; display:inline; height:55px; font-size:14px; margin-left:-2px; border-left:1px solid #d0d5d9; text-align:center}
+.recharge-entry strong{ font-family:Tahoma, Geneva, sans-serif; font-weight:normal}
+.recharge-entry ins{ font-family:Microsoft YaHei, Helvetica, Tahoma; font-style:normal; text-decoration:none}
+.recharge-entry dt{ position:relative; line-height:normal; font-size:20px}
+.recharge-entry dt strong{ font-size:24px}
+.recharge-entry dd .yhelp{ position:absolute; left:auto; top:6px; margin-left:3px}
+.recharge-entry dd{ position:relative; height:24px; line-height:24px; overflow:hidden}
+.text-left{ text-align:left}
+.text-left dt{ padding-left:20px}
+.text-left dd{ padding-left:25px}
+
+.submit-rw{ position:absolute; right:30px; top:50%; height:50px; margin-top:-24px}
+.submit-rw .icons{ position:absolute; left:50%; top:50%; margin:-10px 0 0 -32px}
+.submit-rw a{ position:relative; width:125px; height:50px; line-height:50px; margin-left:20px; text-indent:55px; padding:0; font-size:16px}
+.submit-rw .recharge{background:#15456f}
+.submit-rw .withdraw{ background:#18b160}
+.submit-rw .withdraw .icons{margin:-6px 0 0 -30px}
+
+/*银行卡管理*/
+.bankcards{ overflow:hidden; zoom:1; margin-left:-30px; *padding-bottom:30px}/* width:105%; overflow:hidden*/
+.bank-card{ width:375px; float:left; display:inline; height:230px; margin-left:30px; position:relative}
+.bank-card .head,.bank-card .foot{ background:#e7ecee; height:50px; position:relative}
+.bank-card .content{ background:#fff; height:130px}
+.bank-card .content ul{ overflow:hidden; zoom:1; padding:22px 0 0 20px}
+.bank-card .content li{ height:30px; line-height:30px; overflow:hidden}
+.bank-card .content b{ float:left; display:inline; width:60px; text-align:right; margin-right:15px}
+.bank-card .content em{ font-family:Tahoma; font-size:24px}
+.bank-card .bank-logo{ position:absolute; left:15px; top:10px; height:30px; font-size:14px; line-height:30px; padding-left:30px}
+.bank-card .bank-small{ position:absolute; left:0; top:0}
+.bank-card .title{ text-align:center; padding-top:15px; position:relative}
+.bank-card .title .icons{ position:absolute; left:32%; top:18px}
+.bank-status{ position:absolute; right:30px; top:15px; color:#18b160}
+.bank-status .icons{ margin-right:5px}
+
+.bank-card .foot .bank-action{float: left;position: relative;left: 50%; padding-top: 13px}
+.bank-card .foot a{ padding:0 15px 0 25px; height:26px; line-height:26px; margin-right:10px; float:left; display:inline; white-space: nowrap; position: relative; left: -50%; overflow:hidden}
+.bank-card .foot .icons{ position:absolute; left:13px; top:10px}
+.bank-card .bank-delete{ background:#fff; color:#8a949c}
+.bank-card .bank-delete:visited{ color:#8a949c}
+.bank-card .bank-bind{ background:#15456f; color:#fff}
+.bank-card .bank-bind:visited{ color:#fff}
+
+.bank-add-button{border-top:1px solid #d3d8dc;border-bottom:1px solid #d3d8dc; height:130px; margin:49px 0; text-align:center}
+.bank-add-button a{ position:relative; color:#349cd8; margin-top:55px; display:inline-block; font-size:14px}
+.bank-add-button a:visited{ color:#349cd8}
+.bank-add-button .add-blue{ position:absolute; left:0; top:4px; margin-left:-20px}
+
+.bank-card-add{ overflow:visible; height:auto; background:#fff}
+.bank-card-opt{ display:none}
+.bank-card-opt .head{border-bottom:1px solid #d3d8dc}
+.bank-card-opt .foot{border-top:1px solid #d3d8dc}
+.bank-card-opt .bank-items{ padding:18px 0 10px}
+.bank-card-opt .bank-items li{ height:48px; overflow:hidden; position:relative}
+.bank-card-opt .bank-items label{ float:left; display:inline; line-height:33px; margin-right:5px; width:80px; text-align:right}
+.bank-card-opt .bank-items input{ width:220px; height:19px; line-height:19px; padding:6px 5px; color:#999}
+.bank-card-opt input.my-name{ background:#f0f5f7}
+.bank-card-opt .bank-select{ color:#349cd8; position:absolute; right:53px; top:5px; cursor:pointer; padding-right:10px; height:20px; float:right; line-height:20px}
+.bank-card-opt .bank-select .icons{ position:absolute; right:0; top:8px}
+.bank-card-opt .Error{ color:#d35353; padding-left:85px}
+
+/*资产统计*/
+.assets-entry-tab{ position:relative; height:110px}
+.assets-entry-tab .arrow-eml-gray-down{ display:none}
+.assets-tab{ margin-bottom:0; width:100%; overflow:hidden}
+.assets-tab .stats-entry{ cursor:pointer}
+.assets-tab .current{ _border:0}
+.assets-tab .current dt{ background:#fff; margin-top:-15px; padding-top:18px; border-radius:3px 3px 0 0; cursor:pointer}
+.assets-tab .current dd{ background:#fff; height:63px; border-radius:0 0 3px 3px; cursor:pointer}
+.assets-tab .current dt .yhelp{ top:22px}
+.assets-tab .current dd strong{ color:#349cd8}
+
+.assets-table{ width:100%; font-size:12px}
+.assets-table th,.assets-table td{ vertical-align:middle; height:40px; text-align:right; text-indent:30px; padding-right:50px; border-bottom:1px solid #e7ecee}
+.assets-table th{ background:#f0f4f7}
+.assets-table td.txt{ text-align:left; width:20%; padding:0}
+.assets-table .high td{ background:#f0f4f7}
+.assets-table td.center{ text-align:center; padding:0; text-indent:50px}
+.assets-table .number{ position:relative; height:20px}
+.assets-table .num{ display:inline-block; height:16px; margin-left:5px; line-height:15px; overflow:hidden; font-family:Tahoma; font-size:12px; background:#15456f; color:#fff; text-indent:0; padding:0 5px; font-weight:normal; position:absolute; left:auto; top:2px}
+
+.wei-yield{ height:330px; overflow:hidden}
+.wei-yield .head{ height:40px; background:#f0f4f7}
+.wei-yield .head h2{ float:left; display:inline; width:49.3%; text-align:center; height:40px; line-height:40px}
+
+.yield-cpi{ width:52%; float:left; display:inline; height:290px; overflow:hidden; border-right:1px solid #e7ecee; position:relative; font-size:12px; color:#8a949c}
+.yield-cpi h3{ width:100%; text-align:center; padding-top:20px; font-weight:normal}
+.yield-cpi h3 em{ font-family:Tahoma; font-size:16px; color:#fc8936; font-weight:normal; font-weight:bold}
+.yield-group{ height:170px; width:100%; position:absolute; left:0; bottom:40px; border-bottom:1px solid #e7ecee}
+.yield-group .items{ float:left; display:inline; width:33%; height:100%; position:relative}
+.yield-group .pie{ width:60%; position:absolute; left:20%; bottom:0; background:#a1acb4}
+.yield-group .pie b{ position:absolute; left:0; top:-25px; display:block; text-align:center; width:100%}
+.yield-group .items h2{ width:100%; position:absolute; left:0; bottom:-30px; font-weight:normal; text-align:center}
+.yield-group .icons{ position:absolute; left:auto; top:4px; margin-left:3px}
+.yield-per{ width:47%; float:right; height:270px; margin-top:15px; overflow:hidden}
+
+/*投资记录*/
+.invest-tabs{ height:50px; position:relative; z-index:5}
+.invest-tabs ul{ position:absolute; left:0; bottom:-1px; height:50px}
+.invest-tabs li{ height:35px; padding:13px 40px 0 40px; float:left; display:inline; border:1px solid #e7ecee; border-bottom:0; margin-right:40px; background:#e7ecee; font-size:16px; border-radius:5px 5px 0 0; cursor:pointer}
+.invest-tabs li .r5{ color:#fff; height:16px; line-height:16px; font-size:12px; font-weight:normal; padding:0 6px; background:#a1acb4; display:inline-block; margin-left:5px}
+.invest-tabs li.current{ background:#fff; color:#349cd8; height:36px; border:1px solid #d0d5d9; border-bottom:0}
+.invest-tabs li.current .r5{ background:#15456f}
+
+/*.invest-panel{ border:1px solid #d0d5d9; position:relative; z-index:3; overflow:hidden; zoom:1; margin-bottom:30px}*/
+
+/*.invest-plan li.col_1{background:#09C}
+.invest-plan li.col_2{background:#960}
+.invest-plan li.col_3{background:#F60}
+.invest-plan li.col_4{background:#999}
+.invest-plan li.col_5{background:#396}
+.invest-plan li.col_6{background:#939}*/
+
+.invest-plan{ font-size:12px; background:#f0f4f7; overflow:hidden; zoom:1}
+.invest-plan .items{ height:57px; overflow:hidden; padding:0 10px 0 20px; background:#fff; border:1px solid #fff; border-bottom:1px solid #e9edef}
+.invest-plan .title{ font-size:13px}
+.invest-plan li{ float:left; display:inline; width:16%; height:57px; line-height:57px; overflow:hidden}
+.invest-plan li.col_1{ width:18%; text-indent:6px}
+.invest-plan li.col_2{ width:7%; text-align:right; color:#fc9b5e}
+.invest-plan li.col_3{ width:19%; text-align:right}
+.invest-plan li.col_4{ width:23%; text-align:right}
+.invest-plan li.col_5{ width:20%; text-align:center; text-indent:40px}
+.invest-plan li.col_6{ width:10%; text-align:right}
+.invest-plan .links{ position:relative; padding-right:17px; display:inline-block}
+.invest-plan .links .icons{ position:absolute; right:0; top:25px}
+.invest-plan .links:hover .arrow-gray-dotb{background-position: -57px -149px}
+.invest-plan .links:hover .arrow-gray-dotr{background-position: -49px -143px}
+.invest-plan .vouch{ color:#18b160; position:relative; padding-left:18px; *padding-left:55px; display:inline-block; text-align:left; text-indent:0}
+.invest-plan .vouch .icons{ position:absolute; left:0px; *left:40px; top:20px}
+.invest-plan .ltd{ position:relative; padding-left:20px; *padding-left:55px; display:inline-block; text-align:left; text-indent:0}
+.invest-plan .ltd .icons{ position:absolute; left:0; *left:40px; top:20px}
+
+.invest-plan-entry{ margin:10px 9px; border:1px solid #e8edef; position:relative; max-height:285px; overflow:hidden; display:none; _height:expression((document.documentElement.clientHeight||document.body.clientHeight)>285?"285px":""); _overflow:visible}
+.invest-plan-entry .items{ padding:0 0 0 10px; border:0px solid #fff}
+.invest-plan-entry .over{ background:#eaf5fb}
+.invest-plan-entry li.col_1{ color:#349cd8}
+.invest-plan-entry .links .icons{ right:3px; top:22px}
+
+.scrollbar{ background:#ccc; position: relative; background-position: 0 0; float: right; width:10px}
+.scrollbar .track { background:#eee; height: 100%; width:10px; position: relative}
+.scrollbar .thumb { background:#39F; height: 20px; width: 10px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+.scrollbar .end { background:#F30; overflow: hidden; height: 5px; width: 10px}
+.scrollbar .disable { display: none; }
+.scrollbar .noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+
+.loan-deal{}
+.loan-deal li.col_1{ width:13%}
+.loan-deal li.col_2{ width:23%}
+.loan-deal li.col_3{ width:15%}
+.loan-deal li.col_4{ width:16%}
+.loan-deal li.col_5{ width:20%}
+.loan-deal li.col_6{ width:10%}
+.loan-deal .invest-plan-entry li.col_2{ text-align:center}
+
+/*.invest-loan li.col_1{background:#09C}
+.invest-loan li.col_2{background:#960}
+.invest-loan li.col_3{background:#F60}
+.invest-loan li.col_4{background:#999}
+.invest-loan li.col_5{background:#396}
+.invest-loan li.col_6{background:#939}
+.invest-loan li.col_7{background:#600}
+.invest-loan li.col_8{background:#F9F}*/
+
+.invest-loan{ font-size:12px; background:#fff}
+.invest-loan .items{ height:57px; overflow:hidden; padding-left:35px; border-bottom:1px solid #e9edef; font-size:12px; position:relative; z-index:3}
+.invest-loan li{ float:left; display:inline; width:12%; height:47px; padding-top:10px; position:relative}
+.invest-loan li.col_1{ width:20%; text-align:left; text-indent:0px}
+.invest-loan li.col_2{ width:11%; text-align:left}
+.invest-loan li.col_3{ width:12%; text-align:center; color:#fc9b5e}
+.invest-loan li.col_4{ width:10%; text-align:right}
+.invest-loan li.col_5{ width:12%; text-align:right}
+.invest-loan li.col_6{ width:12%; text-align:center}
+.invest-loan li.col_7{ width:12%; text-align:left}
+.invest-loan li.col_8{ width:7%; text-align:right}
+.invest-loan li.col_7 a,.invest-loan li.col_7 a:visited{ color:#475058}
+.invest-loan li.col_7 a:hover{ color:#349cd8}
+
+.invest-loan .tags{ float:left; display:inline; padding:13px 0 0 3px; height:20px}
+.invest-loan .tags .icons, .invest-plan .col_1 .icons{ float:left; display:inline; margin-left:2px; height:16px; width:16px; line-height:normal}
+
+
+.invest-loan .title{ font-size:13px; overflow:visible; position:relative; z-index:5}
+.invest-loan .title a{ position:relative; padding-right:12px; display:inline-block; color:#475058}
+.invest-loan .title .icons{ position:absolute; right:0; top:24px}
+.invest-loan .title li{ height:57px; line-height:57px; padding:0; overflow:visible}
+.invest-plan .title li.col_3{ color:#475058}
+.invest-loan .filter{ position:relative; border:1px solid #fff; height:30px; border-bottom:0; line-height:30px; cursor:default; margin:13px 10px 0; _margin:16px 10px 0}
+.invest-loan .filter .icons{ position:static; left:auto; right:auto; top:auto; margin-left:3px}
+.invest-loan .filter-loan{ position:absolute; left:-1px; top:30px; border:1px solid #d2d7db; border-top:0; width:100%; background:#fff; display:none}
+.invest-loan .filter-loan a{ padding:0; width:100%; height:28px; line-height:28px; display:block; overflow:hidden}
+.invest-loan .filter-loan a:hover{ background:#a1acb4; color:#fff}
+.invest-loan .filter-active{border:1px solid #d2d7db; border-bottom:0; color:#349cd8}
+.invest-loan .filter-active .icons{background-position: -105px -80px}
+
+.invest-loan .links{ position:relative; padding-right:17px}
+.invest-loan .links .icons{ position:absolute; right:0; top:4px}
+.invest-loan .links:hover .arrow-gray-dotr{background-position: -49px -143px}
+.invest-loan .vouch{ color:#18b160; position:relative; padding-left:16px}
+.invest-loan .vouch .icons{ position:absolute; left:0; top:1px}
+.invest-loan .ltd{ position:relative; padding-left:20px}
+.invest-loan .ltd .icons{ position:absolute; left:0; top:1px}
+
+.plan-parame{border:1px solid #e7ecee; height:498px; position:relative; overflow:hidden}
+.plan-parame .head{ height:49px; background:#f0f4f7; clear:both; overflow:hidden; border-bottom:1px solid #e7ecee}
+.plan-parame .head li{ float:left; display:inline; width:44%; line-height:49px; position:relative}
+.plan-parame .head .fr{ float:right; padding-right:10px}
+.plan-parame .head .fl{ float:left; padding-left:30px}
+.plan-parame .head li.f{border-right:1px solid #e7ecee; width:54%}
+.plan-parame .head li.f .fr{ padding-right:30px}
+.plan-parame .head em{ color:#fc8936}
+.plan-parame .head strong{ font-size:16px}
+.parame-post{ float:left; display:inline; height:450px; width:54%; border-right:1px solid #e7ecee; position:relative; z-index:5}
+.parame-post .items{height:55px; line-height:55px; overflow:hidden; padding-left:30px; border-bottom:1px solid #e7ecee}
+.parame-post li{ height:55px; float:left; display:inline}
+.parame-post li.y_1{ width:30%}
+
+.parame-per{ float:right; padding-top:24px; height:400px; width:370px; position:absolute; right:0; top:30px; z-index:3}
+
+/*.plan-post li.col_1{background:#09C}
+.plan-post li.col_2{background:#960}
+.plan-post li.col_3{background:#F60}
+.plan-post li.col_4{background:#999}*/
+
+.plan-items{}
+.plan-post .items{ height:57px; overflow:hidden; padding-left:35px; border-bottom:1px solid #e9edef; font-size:12px}
+.plan-post li{ float:left; display:inline; width:24%; height:57px; text-align:left; line-height:57px; overflow:hidden}
+.plan-post li.col_1{ width:20%; text-align:left}
+.plan-post li.col_2{ width:18%}
+.plan-post li.col_3{ width:25%}
+.plan-post li.col_4{ width:16%}
+.plan-post li.col_5{ width:18%; text-align:left; position:relative}
+.plan-post li.col_5 .icons{display:inline; margin-right:5px; float:left; margin-top:22px}
+.plan-post li.col_5 a{ height:20px; line-height:20px; overflow:hidden; display:inline; float:left; margin-top:20px}
+.plan-post li.col_5 .forbid{color:#475058; cursor:default; text-decoration:none}
+.plan-post li.col_3 a,.plan-post li.col_3 a:visited{ color:#475058}
+.plan-post li.col_3 a:hover{ color:#349cd8}
+.plan-post .ltd{ position:relative; padding-left:20px; display:inline-block}
+.plan-post .ltd .icons{ position:absolute; left:0; top:22px}
+.plan-post .title{ font-size:13px; background:#f0f4f7; height:42px}
+.plan-post .title li{height:42px; line-height:42px}
+
+.plan-stats{ background:#f0f4f7; padding:20px; margin-bottom:30px}
+.plan-stats em{ font-size:14px; font-family:Tahoma; color:#fc8936}
+
+.loan-parame{ margin-bottom:0}
+.loan-parame .head{ height:50px; line-height:50px; clear:both; background:#f0f4f7; padding:0 20px}
+.loan-parame .head h2{ font-size:14px; float:left}
+.loan-parame .head .r{ float:right}
+.loan-parame .head .ltd{ position:relative; padding-left:30px; display:inline-block}
+.loan-parame .head .ltd .icons{ position:absolute; left:10px; top:18px}
+.loan-parame .loan-tip{ padding:15px 20px}
+.loan-parame .loan-tip em{ color:#18b160}
+
+.loan-steps{ height:40px; overflow:hidden; margin:0 10px 20px}
+.loan-steps ol{ height:40px; width:100%; overflow:hidden; margin:0 auto}
+.loan-steps li{ float:left; display:inline; width:20%; height:40px; line-height:40px; position:relative; background:#f0f4f7 url(../../../local/img/common/steps.png) no-repeat right -60px}
+.loan-steps li.step-1{width:25%}
+.loan-steps li.step-2{width:23%}
+.loan-steps li.step-3{width:19%}
+.loan-steps li.step-4{width:17%}
+.loan-steps li.step-5{width:15%; float:left; background:#f0f4f7}
+.loan-steps .txt{ float:left; display:inline; position:relative; padding-left:28px}
+.loan-steps .dot20{ position:absolute; left:5px; top:10px; text-indent:0; font-size:14px; line-height:20px; text-align:center; font-family:Tahoma; font-size:14px}
+.loan-steps .cm-green{ position:absolute; left:auto; top:15px; margin-left:2px}
+
+.loan-parame-post{ border-top:1px solid #e9edef; overflow:hidden; zoom:1}
+.loan-parame-post .items{ border-bottom:1px solid #e9edef; height:59px; line-height:59px}
+.loan-parame-post li{ float:left; display:inline; border-left:1px solid #e9edef; height:59px; width:49%; margin-left:-1px}
+.loan-parame-post .tit{ display:inline-block; width:100px; padding-left:20px}
+
+.repay-pro{ height:60px; line-height:60px; padding:0 20px; position:relative}
+.repay-pro h2{ float:left; display:inline; width:100px}
+.repay-pro .repay-bar{ float:left; height:10px; width:190px; margin:25px 10px 0 0; font-size:0; line-height:0; overflow:hidden; background:#e8ecef; border-radius:15px}
+.repay-pro .repay-bar div{ float:left; height:10px; width:0%; overflow:hidden; background:#15456f; border-radius:15px}
+.repay-pro .buy-number{ position:absolute; left:125px; top:0; color:#fc9b5e; line-height:normal; width:20px; text-align:center; display:none}
+.repay-pro .buy-text{position:absolute; left:105px; bottom:5px; color:#fc9b5e; line-height:normal; width:60px; text-align:center; display:none}
+.repay-pro .ar_down{border-width:5px; bottom:-11px; margin-left:-6px; border-color:#fc9b5e transparent transparent transparent}
+
+
+/*.loan-post li.col_1{background:#09C}
+.loan-post li.col_2{background:#960}
+.loan-post li.col_3{background:#F60}
+.loan-post li.col_4{background:#999}
+.loan-post li.col_5{background:#F90}*/
+.loan-items{}
+.loan-post .items{ height:57px; overflow:hidden; padding:0 0 0 21px; border-bottom:1px solid #e9edef; font-size:12px}
+.loan-post li{ float:left; display:inline; width:19%; height:57px; line-height:57px; text-align:left; overflow:hidden}
+.loan-post li.col_1{ width:20%}
+.loan-post li.col_2{ width:21%}
+.loan-post li.col_3{ width:21%}
+.loan-post li.col_4{ width:14%}
+.loan-post li.col_5{ width:20%; text-align:center; position:relative}
+.loan-post .title{ font-size:13px; background:#f0f4f7; height:42px}
+.loan-post .title li{height:42px; line-height:42px}
+.loan-post .fx{ position:relative; padding-right:15px; display:inline-block}
+.loan-post .fx .icons{ position:absolute; right:0; top:14px}
+
+.loan-post li.col_5 .icons{ position:absolute; left:50%; top:50%; margin:-6px 0 0 -7px}
+
+
+/*借款合同*/
+/*.plan-deal-items li.col_1{background:#09C}
+.plan-deal-items li.col_2{background:#960}
+.plan-deal-items li.col_3{background:#F60}
+.plan-deal-items li.col_4{background:#999}
+.plan-deal-items li.col_5{background:#396}
+.plan-deal-items li.col_6{background:#939}
+.plan-deal-items li.col_7{background:#600}*/
+
+.plan-deal-items{ font-size:12px; background:#fff; overflow:hidden; zoom:1}
+.plan-deal-items .items{ height:57px; overflow:hidden; padding-left:20px; border-bottom:1px solid #e9edef}
+.plan-deal-items li{ float:left; display:inline; width:14%; height:57px; line-height:57px; overflow:hidden}
+.plan-deal-items li.col_1{ width:20%; text-align:left; text-indent:20px}
+.plan-deal-items li.col_2{ width:10%; text-align:left; text-indent:10px}
+.plan-deal-items li.col_3{ width:18%; text-align:left}
+.plan-deal-items li.col_4{ width:13%; text-align:right}
+.plan-deal-items li.col_5{ width:10%; text-align:right}
+.plan-deal-items li.col_6{ width:12%; text-align:left; margin-left:20px}
+.plan-deal-items li.col_7{ width:10%; text-align:right}
+.plan-deal-items li.col_1 a{ float:left; display:inline; height:20px; line-height:20px; overflow:hidden; margin-top:20px}
+.plan-deal-items li.col_1 .icons{ float:left; display:inline; margin-left:1px; height:16px; width:16px; line-height:normal; margin:22px 0 0 2px}
+
+.plan-deal-items .title{ font-size:13px; overflow:visible}
+
+.plan-deal-items .links{ position:relative; padding-right:17px; display:inline-block}
+.plan-deal-items .links .icons{ position:absolute; right:0; top:23px}
+.plan-deal-items .links:hover .arrow-gray-dotr{background-position: -49px -143px}
+.plan-deal-items .vouch{ color:#18b160; position:relative; padding-left:20px}
+.plan-deal-items .vouch .icons{ position:absolute; left:0; top:1px}
+.plan-deal-items .ltd{ position:relative; padding-left:20px; display:inline-block; text-indent:0; color:#8a949c}
+.plan-deal-items .ltd .icons{ position:absolute; left:0; top:20px}
+.plan-deal-items .ltd:visited{ color:#8a949c}
+.plan-deal-items .ltd:hover{ color:#349cd8}
+
+
+/*赎回投资*/
+.redeem-steps{ height:57px; overflow:hidden; width:100%; margin:0 auto 20px}
+.redeem-steps ol{ height:57px; width:100%; overflow:hidden}
+.redeem-steps li{ float:left; display:inline; width:33%; height:57px; line-height:57px; background:#f0f4f7 url(../../../local/img/common/steps.png) no-repeat right 0}
+.redeem-steps li.step-3{ background:#f0f4f7}
+.redeem-steps .txt{ float:left; display:inline; position:relative; padding-left:80px}
+.redeem-steps .dot24{ position:absolute; left:40px; top:18px; text-indent:0; font-size:14px; line-height:24px; text-align:center; font-family:Tahoma; font-size:18px}
+
+
+
+
+/*.redeem-items li.col_1{background:#09C}
+.redeem-items li.col_2{background:#960}
+.redeem-items li.col_3{background:#F60}
+.redeem-items li.col_4{background:#999}
+.redeem-items li.col_5{background:#396}
+.redeem-items li.col_6{background:#939}
+.redeem-items li.col_7{background:#600}*/
+.redeem-items{ font-size:12px; background:#fff}
+.redeem-items .items{ height:57px; line-height:57px; overflow:hidden; position:relative; z-index:2; padding:0 10px; border-bottom:1px solid #e9edef}
+.redeem-items li{ float:left; display:inline; height:57px; width:16%; overflow:hidden; position:relative}
+.redeem-items li.col_1{ width:17%; text-align:left; text-indent:20px}
+.redeem-items li.col_2{ width:12%; text-align:center; color:#fc8936}
+.redeem-items li.col_3{ width:20%; text-align:right}
+.redeem-items li.col_4{ width:20%; text-align:right; z-index:5}
+.redeem-items li.col_5{ width:18%; text-align:center; z-index:3}
+.redeem-items li.col_6{ width:12%; text-align:center}
+
+
+.redeem-items .title{ font-size:13px; overflow:visible; z-index:5}
+.redeem-items .title .thelp{ position:relative}
+.redeem-items .title .icons{ position:absolute; left:auto; top:3px; _top:22px; margin-left:3px}
+.redeem-items .title li{ padding:0; overflow:visible}
+.redeem-items .title li.col_2{ color:#475058}
+.redeem-items .filter{ position:relative; border:1px solid #fff; height:30px; border-bottom:0; line-height:30px; cursor:default; margin:13px 30px 0; _margin:16px 30px 0}
+.redeem-items .filter .icons{ position:static; left:auto; right:auto; top:auto; margin-left:3px}
+.redeem-items .filter-eps{ position:absolute; left:-1px; top:30px; border:1px solid #d2d7db; border-top:0; width:100%; background:#fff; display:none}
+.redeem-items .filter-eps a{ padding:0; width:100%; height:28px; line-height:28px; display:block; overflow:hidden; color:#475058}
+.redeem-items .filter-eps a:hover{ background:#a1acb4; color:#fff}
+.redeem-items .filter-active{border:1px solid #d2d7db; border-bottom:0; color:#349cd8}
+.redeem-items .filter-active .icons{background-position: -105px -80px}
+.redeem-items .cancel-redeem,.redeem-items .cancel-redeem:visited{ color:#349cd8}
+.redeem-items .cancel-redeem:hover{ text-decoration:underline}
+
+.subtip-btn{ height:50px; padding:20px 160px 20px 30px; line-height:26px; position:relative; border-bottom:1px solid #e9edef}
+.subtip-btn .button-recharge{ width:110px; height:50px; line-height:50px; padding:0; padding-left:15px; float:right; text-align:center; font-size:16px; position:absolute; right:30px; top:20px}
+.subtip-btn .icons{ position:absolute; left:33px; top:19px}
+
+.redeem-plan li.col_1{ width:18%; text-align:left; text-indent:5px}
+.redeem-plan li.col_2{ width:10%; text-align:center}
+.redeem-plan li.col_3{ width:12%; text-align:center}
+.redeem-plan li.col_4{ width:12%; text-align:center}
+.redeem-plan li.col_5{ width:15%; text-align:center}
+.redeem-plan li.col_6{ width:12%; text-align:center}
+.redeem-plan li.col_7{ width:12%; text-align:center}
+.redeem-plan li.col_8{ width:8%; text-align:center}
+.redeem-plan .filter{ margin:14px 20px 0; _margin:16px 20px 0}
+.redeem-plan li.col_1 a{ line-height:16px; display:inline-block; float:left; margin:20px 2px 0 0}
+
+.dis-rate{ border:1px solid #d0d5d9; height:26px; width:70px; overflow:hidden; position:relative; margin:15px auto 0; border-radius:3px}
+.dis-rate input{ height:26px; line-height:26px; width:51px; overflow:hidden; border:0; border-right:1px solid #d0d5d9; position:absolute; left:0; top:0; text-align:center}
+.dis-rate a{ float:right; width:16px; height:13px; border-bottom:1px solid #d0d5d9; position:absolute; right:0}
+.dis-rate a.disabled{ opacity:.5; filter: alpha(opacity=50); cursor:default}
+.dis-rate .plus{ background-position:-185px -73px; top:0}
+.dis-rate .minus{background-position:-185px -85px; bottom:-1px}
+
+.redeem-items .yCheckbox{ position:absolute; left:50%; top:50%; margin:-9px 0 0 -9px}
+
+.redeem-entry{}
+.redeem-entry .par{ border:1px solid #d0d5d9; margin:20px}
+.redeem-entry .par li{ border-bottom:1px solid #e9edef; height:40px; line-height:40px; padding:0 10px; overflow:hidden; position:relative}
+.redeem-entry .par li.last{ background:#f0f4f7; border:0}
+.redeem-entry .par em{ float:right; position:absolute; right:10px; top:0}
+
+.redeem-entry .cod{ overflow:hidden; zoom:1; margin:0 20px}
+.redeem-entry .cod li{ height:50px; line-height:30px; position:relative}
+.redeem-entry .cod label{ float:left; display:inline; margin-right:5px; width:72px; text-align:right}
+.redeem-entry .cod input{ float:left; display:inline; width:180px; padding:5px 5px}
+.redeem-entry .getCodeBotton{ height:24px; line-height:24px; font-size:12px; float:right}
+.redeem-entry .sum-btn{position:absolute; left:172px; top:0}
+.redeem-entry .sum-btn .gbtn{ display:inline-block; height:30px;line-height:30px; padding:0 5px; margin-top:6px}
+.redeem-entry .sum-btn .disabled-timer{ background:#e8ecef; cursor:default; color:#a1acb4}
+
+.redeem-entry .onerr{ color:#d35353; position:absolute; left:278px; top:0}
+.redeem-entry .agr{ padding:0 20px 15px}
+
+.cancel-redeem-entry{ height:130px; position:relative}
+.cancel-redeem-entry .ask50{ position:absolute; left:30px; top:50%; margin-top:-25px}
+.cancel-redeem-entry .cont{ padding:40px 0 0 100px; line-height:24px}
+
+.deal-contents{ overflow:hidden; zoom:1; position:relative}
+.checkall-project{ overflow:hidden; zoom:1; padding-bottom:30px}
+.checkall-project h2{ padding:20px 0 20px; font-size:14px}
+.checkall-project table{ width:100%; border-top:1px solid #e7ecee; border-right:1px solid #e7ecee}
+.checkall-project td{ vertical-align:middle; height:60px; text-align:center; border-left:1px solid #e7ecee; border-bottom:1px solid #e7ecee; font-family:Tahoma, Geneva, sans-serif}
+
+.invest-double{ background:#fafbfc}
+/*message center*/
+.msg-apk{ overflow:hidden; zoom:1; padding:10px 0; float:left; display:inline; height:30px; line-height:30px; margin-left:30px}
+.msg-apk dt{ float:left; display:inline; text-align:right; color:#69737b; font-weight:bold}
+.msg-apk dd{  float:left; display:inline; height:30px}
+.msg-apk dd a{ display:inline-block; padding:0 10px; height:24px; line-height:24px; margin:3px 10px 0 0; float:left; display:inline; border-radius:3px; color:#8a949c}
+.msg-apk dd a:hover{ color:#fff; background:#15456f}
+.msg-apk a.selected,.msg-apk a.selected:visited{color:#fff; background:#15456f; cursor:default}
+
+/*.msg-items li.col_1{background:#09C}
+.msg-items li.col_2{background:#960}
+.msg-items li.col_3{background:#F60}
+.msg-items li.col_4{background:#999}
+.msg-items li.col_5{background:#396}
+.msg-items li.col_6{background:#939}*/
+.imessage{ overflow:hidden; zoom:1}
+.imessage .highlight{ background:#fafbfc}
+.msg-items{ height:60px; line-height:60px; overflow:hidden}
+.msg-items .items{ height:59px; border-bottom:1px solid #e9edf0}
+.msg-items li{ float:left; display:inline; width:16%; height:59px; position:relative; text-align:left}
+.msg-items li.col_1{ width:8%; text-align:center}
+.msg-items li.col_2{ width:12%}
+.msg-items li.col_3{ width:12%}
+.msg-items li.col_4{ width:12%}
+.msg-items li.col_5{ width:4%}
+.msg-items li.col_6{ width:51%}
+
+
+/*.msg-settings li.col_1{background:#09C}
+.msg-settings li.col_2{background:#960}
+.msg-settings li.col_3{background:#F60}
+.msg-settings li.col_4{background:#999}*/
+.msg-settings{ height:60px; line-height:60px; overflow:hidden}
+.msg-settings .items{ height:59px; border-bottom:1px solid #e9edf0}
+.msg-settings li{float:left; display:inline; width:25%; height:59px; position:relative; text-align:center}
+.msg-settings li.col_1{ width:39%; text-indent:80px; text-align:left}
+.msg-settings li.col_2{ width:20%}
+.msg-settings li.col_3{ width:20%}
+.msg-settings li.col_4{ width:20%}
+
+.imessage .yCheckbox{ position:absolute; left:50%; top:50%; cursor:pointer; margin:-9px 0 0 -9px; width:18px; height:18px}
+.imessage .yFlag{ position:absolute; right:7px; top:23px; cursor:pointer; width:12px; height:16px}
+.imessage .thead{ height:40px; line-height:40px; background:#e8ecef}
+.imessage .thead .items{ height:40px; border-bottom:0}
+.imessage .thead li{ height:40px}
+.msg-items a,.msg-items a:visited{ color:#349cd8}
+.msg-items a:hover{ text-decoration:underline}
+.imessage .isread,.imessage .isread a,.imessage .isread a:visited{ color:#8a949c}
+.imessage .unread{ color:#475058}
+.imessage .unread a,.imessage .unread a:visited{ color:#349cd8}
+
+
+.message-details{ padding:20px; line-height:1.8; overflow:hidden; zoom:1; border-bottom:1px solid #d3d8dc}
+.message-details a,.message-details a:visited{ color:#349cd8}
+.message-details h2{ font-size:14px; padding-bottom:10px; color:#69737b}
+
+
+/*recharge*/
+.rech-opts{ overflow:hidden; zoom:1; padding-left:77px}
+.rech-items{ position:relative; padding-bottom:20px}
+.rech-items h2{ position:absolute; left:-77px; top:10px}
+.rech-items ul{ height:100%; width:100%; overflow:hidden; zoom:1}
+.rech-items li{ float:left; display:inline; border-radius:3px; width:150px; height:40px; line-height:40px; border:1px solid #d3d8dc; text-align:center; margin:0 20px 10px 0; position:relative; cursor:pointer}
+.rech-items .select-bank li.banks-dir{ display:none}
+.rech-items li.bank-dir .icons{ display:none}
+.rech-items li.selected{ border:1px solid #349cd8; color:#349cd8}
+.rech-items li.selected .icons{ float:right; width:20px; height:20px; position:absolute; right:-1px; top:-1px; display:block; background-position:-449px -120px}
+.rech-items li.other-banks{ border:0; text-align:left; line-height:normal; cursor:default}
+.rech-items li.other-banks span{ padding-right:10px; height:20px; line-height:20px; display:inline-block; overflow:hidden; margin-top:12px; position:relative; cursor:pointer; color:#349cd8}
+.rech-items li.other-banks .icons{ position:absolute; right:0; top:8px}
+.rech-items li.add-bank{ display:none}
+
+.rech-items .rech-money li{ border:0; text-align:left; line-height:normal; cursor:default}
+.rech-items .rech-money span{ padding:0 5px 0 10px; line-height:1.7}
+.rech-items .rech-money b{ float:left; display:inline; text-align:right; width:100px}
+.sum-input{ position:relative; height:44px; width:155px; overflow:hidden;zoom:1; float:left; display:inline}
+.sum-input label{position:absolute; left:5px; top:10px; z-index:999;color:#999; font-size:18px; height:44px; display:block; overflow:hidden; width:25px}
+.sum-input input{ font-size:18px; padding-left:25px; width:119px; position:relative; z-index:3;float:left; display:inline }
+
+.rech-items .rech-bank{ height:auto; padding-bottom:30px}
+.rech-items .rech-bank ul{ height:auto}
+.rech-items .rech-bank li{ margin-bottom:10px}
+.rech-items .msg-error{ position:absolute; left:0; bottom:10px; font-size:12px; color:#d35353}
+
+.funds-ord{ position:relative; height:50px; padding-left:25px; line-height:30px}
+.funds-ord .yCheckbox{ position:absolute; left:0; top:5px}
+
+.rech-submit{ height:58px; padding-bottom:30px}
+.rech-submit .icons{ position:absolute; left:50%; top:50%; margin:-10px 0 0 -32px}
+.rech-submit a{ position:relative; width:125px; height:50px; line-height:50px; padding:0; text-indent:55px; font-size:16px; float:left; display:inline}
+.banks-tips{ padding:0 20px 20px 0}
+
+
+.bank-desc{ border-radius:3px; border:1px solid #d3d8dc; border-left:0; border-bottom:0; position:relative; overflow:hidden; zoom:1; height:auto; margin:20px 47px 0 0; display:none}
+.bank-desc table{width:100%}
+.bank-desc th,.bank-desc td{text-align:center; vertical-align:middle; height:35px; border-left:1px solid #d0d5d9; border-bottom:1px solid #d0d5d9}
+.bank-desc th{ background:#e8ecef; font-weight:normal}
+.bank-desc .visa-card td{ display:none}
+
+.rech-dialog-entry{ padding:15px; overflow:hidden; zoom:1}
+.rech-dialog-entry a,.rech-dialog-entry a:visited{ color:#349cd8; padding-right:10px}
+.rech-dialog-entry .p{ padding-bottom:20px}
+.rech-dialog-entry .rech-mode{ padding-left:25px; position:relative; height:30px}
+.rech-dialog-entry .rech-mode .icons{ position:absolute; left:0; top:3px}
+.rech-dialog-entry .rech-mode strong{ font-size:14px; font-weight:bold}
+
+/*tab*/
+.help-recharge{ padding:15px 20px; line-height:1.8}
+.help-recharge a,.help-recharge a:visited{ color:#349cd8}
+
+.success-page{ position:relative; overflow:hidden; zoom:1; width:500px; margin:0 auto; padding:20px 0 50px 80px}
+.success-page b.icons{ position:absolute; left:0; top:29px}
+.success-page .e{ font-size:16px; line-height:2.2; padding-top:10px}
+.success-page a{ padding:0 5px}
+.success-page a,.success-page a:visited{ color:#349cd8}
+
+
+/*withdraw*/
+.withdraw-post{}
+.withdraw-post .items{ border-bottom:1px solid #d3d8dc; overflow:hidden; zoom:1; padding-bottom:20px; position:relative}
+.withdraw-post .gray{ background:#fafbfc}
+.withdraw-post .items .input{ float:left; display:inline; margin-right:5px}
+.withdraw-post .items .sum-input input{ float:none; display:list-item; margin:0}
+.withdraw-post li{ padding:20px 0 1800px 20px;margin-bottom: -1800px; overflow:hidden; zoom:1; border-left:1px solid #d3d8dc; position:relative}
+.withdraw-post .txt{ width:130px; text-align:left; border:0; float:left; display:inline}
+.withdraw-post .txt b{ display:block; padding-top:8px; font-weight:normal}
+.withdraw-post li .fl{ padding:5px 5px 0 0}
+.withdraw-post .tip{ display:inline-block; padding:10px 0 0 10px; position:relative}
+.withdraw-post .err{ color:#d35353; margin-left:10px; padding:10px 0 0 20px}
+.withdraw-post .err .icons{ position:absolute; left:0; top:12px}
+.withdraw-post .tiptxt{ position:absolute; left:95px; bottom:10px; font-size:12px; color:#999}
+
+.adds-bankcard{overflow:hidden; zoom:1}
+.adds-bankcard li{ border-radius:3px; float:left; display:inline; width:190px; height:40px; line-height:40px; border:1px solid #d3d8dc; text-align:center; padding:0; margin:0 10px 10px 0; position:relative; cursor:pointer}
+.adds-bankcard li em{ position:absolute; right:20px; top:0px; float:right}
+.adds-bankcard .logo-bank{ left:5px; margin-left:0}
+.adds-bankcard li.bank-dir .icons{ display:none}
+.adds-bankcard li.selected{ border:1px solid #349cd8; color:#349cd8}
+.adds-bankcard li.selected .icons{ float:right; width:20px; height:20px; position:absolute; right:-1px; top:-1px; display:block; background-position:-449px -120px}
+.adds-bankcard li.selected em{ color:#8a949c}
+.adds-bankcard li.adds-card{ border:1px dashed #d3d8dc; text-align:center; cursor:default}
+.adds-bankcard li.adds-card span{ padding-left:20px; height:20px; line-height:20px; position:relative; cursor:pointer; display:inline-block; overflow:hidden; margin-top:12px}
+.adds-bankcard li.adds-card .icons{ position:absolute; left:0; top:3px}
+
+.adds-bankcard li.adds-current{ border:1px dashed #349cd8}
+.adds-bankcard li.adds-current span{ color:#349cd8}
+.adds-bankcard li.adds-current .icons{ background-position: -88px -113px}
+
+.adds-bankopts{padding:10px 0; opacity:1; height:310px; overflow:hidden; z-index:1; display:none}
+.adds-bankopts .foot{border-top:1px solid #d3d8dc}
+.adds-bankopts li{ height:50px; overflow:hidden; position:relative; margin:0; padding:0; border:0; float:none; display:list-item; width:auto; text-align:left; cursor:default}
+.adds-bankopts label{ float:left; display:inline; line-height:40px; margin-right:15px; width:80px; text-align:right}
+.adds-bankopts input{ float:left; display:inline; width:220px; height:16px; color:#999}
+.adds-bankopts .onbank{ width:160px; height:40px; line-height:40px; border:0}
+.adds-bankopts .yCheckbox{ float:left; display:inline; position:relative; margin-top:11px}
+.adds-bankopts .select-bank{ color:#349cd8; position:absolute; left:270px; top:10px; cursor:pointer; padding-right:10px; height:20px; float:left; line-height:20px}
+.adds-bankopts .select-bank .icons{ position:absolute; right:0; top:8px}
+
+.adds-bankopts .bank-action{ height:40px; padding-left:95px}
+.adds-bankopts .bank-action a{ padding:0 15px 0 25px; height:36px; line-height:36px; margin-right:15px; float:left; display:inline; white-space: nowrap; position: relative; overflow:hidden; color:#475059}
+.adds-bankopts .bank-action .icons{ position:absolute; left:13px; top:15px}
+.adds-bankopts .bank-action .bank-delete{ background:#f0f4f7}
+.adds-bankopts .bank-action .bank-bind{ background:#15456f; color:#fff}
+.adds-bankopts .bank-action .bank-bind:visited{ color:#fff}
+
+.nextsubmit{ padding:15px 0 15px 170px; background:#fff; overflow:hidden; zoom:1; position:relative; z-index:5}
+.nextsubmit .subbtn{ padding:15px 0; height:56px}
+.nextsubmit .gbtn{ width:100px; height:50px; line-height:50px; text-align:center; font-size:16px; padding:0; border:0; padding-left:20px; position:relative}
+.nextsubmit .gbtn .icons{ position:absolute; left:18px; top:18px}
+.nextsubmit .text{ color:#f97e09}
+
+.warm-prompt{ padding:15px 20px; overflow:hidden; zoom:1; line-height:2.0; background:#f0f4f7; margin-bottom:30px}
+.warm-prompt h2{ padding-bottom:10px}
+
+.verify-infos{ padding-bottom:20px; font-size:14px; font-weight:bold}
+
+.jscroll-c{position:relative; top:0px; z-index:9999; zoom:1}
+.jscroll-e{position:absolute; top:0px; right:0; height:100%; overflow:hidden; z-index:10000; font-size:0; line-height:normal; -moz-user-select:none}
+.jscroll-u{position:absolute; left:0; top:0px; width:100%; background:#999; overflow:hidden}
+.jscroll-h{position:absolute; left:0; background:#ccc; -moz-user-select:none; -moz-border-radius:50px;-webkit-border-radius:50px;border-radius:50px}
+.jscroll-d{position:absolute; left:0; bottom:0px; width:100%; background:#999; overflow:hidden}
+
+
+
+/*safe center*/
+.safe-menu{ overflow:hidden; zoom:1; padding:10px 0 10px 0; font-size:14px; border-bottom:1px solid #e8ecef}
+.safe-menu h2{height:40px; line-height:40px; padding-left:15px; background:#f0f4f7; font-size:14px}
+.safe-menu li{ height:40px; line-height:40px; padding-left:40px}
+.safe-menu li a{ position:relative; color:#666}
+.safe-menu li a:visited{color:#666}
+.safe-menu li a:hover{ text-decoration:none;color:#349cd8}
+.safe-menu li.current a,.console-menu dd.current a:visited{ color:#349cd8}
+.safe-banner{ border-bottom:1px solid #e8ecef}
+
+.security-rank{ height:45px; position:relative; padding:20px 40px; font-size:14px}
+.security-rank .fl{}
+.security-rank .fr{}
+.security-rank .per{ height:16px; width:60%; font-size:0; line-height:0; overflow:hidden; float:left; display:inline; margin:2px 10px 0 0; background:#e8ecef; border-radius:15px}
+.security-rank .per div{ background:#18b160; height:16px; float:left; width:0%; border-radius:15px}
+
+.ul-table{ height:60px; border-top:1px solid #d3d8dc; margin-top:-1px; color:#8a949d; font-size:12px; padding-left:40px}
+.ul-table li{ float:left; display:inline; height:59px; line-height:59px; overflow:hidden; position:relative}
+.ul-table li.col_1{ width:3%}
+.ul-table li.col_2{ width:14%}
+.ul-table li.col_3{ width:45%}
+.ul-table li.col_4{width:20%; text-align:right}
+.ul-table li.col_1 .icons{ position:absolute; left:0; top:24px}
+
+.ul-os{}
+.ul-os li.col_1{ width:12%}
+.ul-os li.col_2{ width:64%}
+.ul-os li.col_3{ width:10%}
+.ul-os li.col_3 .light-green{ position:relative; float:left; padding-left:16px}
+.ul-os li.col_3 .light-green .icons{ position:absolute; left:0; top:24px}
+
+
+.form-opt{ padding:50px 30px 30px; position:relative}
+.form-opt .tip-text{ color:#8a949c; position:absolute; left:142px; top:15px}
+.form-opt .items{ height:70px}
+.form-opt .items li{ position:relative; float:left}
+.form-opt .items li.txt{ float:left; display:inline; margin-right:15px; width:100px; text-align:right; padding-top:10px}
+.form-opt .items li.txt em{ color:#d35353; padding-right:3px}
+.form-opt .items li input,.form-opt .custom-select,.form-opt .select{ float:left; display:inline}
+.form-opt .tip{ padding-left:30px; position:relative; display:inline-block; position:absolute; left:250px; top:8px; width:500px; color:#8a949c}
+.form-opt .tip .icons{ position:absolute; left:10px; top:2px}
+.form-opt .error{ color:#d35353}
+.form-opt .proper{ color:#18b160}
+.form-opt .getCodeBotton{ float:left; display:inline; margin:3px 0 0 10px; padding:7px 5px}
+.form-opt .select{ float:left; display:inline; width:250px; margin-top:10px}
+.form-opt .select-os{ height:50px}
+
+
+.form-opt .btn-submit{ height:50px; padding-left:116px}
+.form-opt .btn-submit .gbtn{ height:40px; line-height:40px; text-align:center; font-size:16px; color:#fff; padding:0 25px; border:0}
+.form-opt .btn-submit .gbtn:visited{ color:#fff}
+
+.modify-infos{ padding:30px 0 0 80px; color:#8a949c; font-size:14px}
+
+.contact-support{ position:relative; padding-left:17px; display:inline-block; margin-left:5px}
+.contact-support .icons{width:14px; height:14px; position:absolute; left:0; top:5px; background-position:-222px -242px}
+
+.verify-sms{ padding-left:75px; color:#69737b}
+.verify-sms .p{ height:20px; padding:30px 0}
+.verify-sms dl{ overflow:hidden; zoom:1; margin-bottom:30px}
+.verify-sms dt{ float:left; display:inline; width:115px; padding-left:15px; position:relative}
+.verify-sms dt .icons{ position:absolute; left:0; top:4px}
+.verify-sms dt .s{ padding-left:20px}
+.verify-sms dd{ margin:0 130px 0 155px; position:relative}
+.verify-sms .btn-text{ position:absolute; right:-80px; top:0}
+
+.verify-message ul{ overflow:hidden; zoom:1; margin:0 20px; padding-top:15px}
+.verify-message li{ height:55px; line-height:35px; position:relative}
+.verify-message label{ float:left; display:inline; margin-right:5px; width:82px; text-align:right}
+.verify-message input{ float:left; display:inline; width:220px; padding:9px 5px}
+.verify-message .error{ color:#d35353; padding:0 20px 10px 107px; margin-top:-10px; display:none}
+
+.disable-sms-entry .ask50{ position:absolute; left:30px; top:50%; margin-top:-25px}
+.disable-sms-entry .cont{ height:88px; padding:40px 0 0 100px; position:relative; line-height:24px; color:#8a949c}
+.disable-sms-entry h2{ font-size:14px; color:#555}
+
+
+/*autobid*/
+.bid-opt{ padding:0px 0 30px; overflow:hidden; zoom:1; margin:0 27px; position:relative}
+.bid-opt .tip-text{ color:#8a949c; position:absolute; left:142px; top:15px}
+.bid-opt .items{ height:60px}
+.bid-opt .items li{ position:relative; float:left; display:inline}
+.bid-opt .items li.txt{ margin-right:15px; width:100px; text-align:right; padding-top:10px}
+.bid-opt .items li.txt em{ color:#d35353; padding-right:3px}
+.bid-opt .items input{ width:145px}
+.bid-opt .items input,.bid-opt select,.bid-opt .items label{ float:left; display:inline}
+.bid-opt .items label{ font-size:14px; padding:10px 0 0 10px; color:#69737b}
+.bid-opt select{ width:157px; margin-top:10px}
+.bid-opt .tip{ padding-left:30px; position:absolute; left:180px; top:0; width:300px; color:#8a949c}
+.bid-opt .tip .icons{ position:absolute; left:10px; top:2px}
+.bid-opt .error{ color:#d35353; left:310px}
+.bid-opt .proper{ color:#18b160}
+.bid-opt li .light-org{ padding-right:15px; float:left; display:inline}
+.bid-opt li .gbtn{ float:left; display:inline; margin:-5px 15px 0 0; height:32px; line-height:32px; padding:0 15px}
+.bid-opt .bid-txt li{padding-top:10px}
+.bid-opt .btn-submit{ height:50px; padding-left:116px}
+.bid-opt .btn-submit .gbtn{ height:30px; line-height:30px; text-align:center; padding:0 10px; border:0; margin-right:15px}
+.bid-info{ overflow:hidden; zoom:1; border-top:2px dotted #d3d8dc; padding:45px 27px; line-height:2.0}
+.bid-info h2{ font-size:14px}
+.bid-info .items ul{ margin-left:40px}
+
+/*----重置密码-----*/
+.reset-passwd-tip{ padding:10px 0 10px 75px; color:#8a949c}
+.reset-passwd .gbtn, .form-reset .gbtn{position:absolute; top:30px; right:20px; height:40px; line-height:40px; font-size:16px; color:#fff; padding:0 25px; border:0}
+.form-reset .gbtn{ position:relative; float:left; top:0; right:0; padding:0 15px}
+.form-reset .bg-none{margin-left:15px; background:#8a949c; cursor:default}
+.form-reset .mg-lf{ margin-left:15px}
+.reset-passwd{ margin-top:20px}
+.reset-passwd ul{ }
+.reset-passwd li{padding:20px 150px 20px 25px; border-top:1px solid #e9edf0; margin-top:-1px; position:relative; overflow:hidden; zoom:1}
+.reset-passwd li h2{ padding-bottom:10px; font-size:16px}
+.reset-passwd li p{ line-height:24px; font-size:13px; color:#8a949c}
+.form-reset .tip-text-bank{ padding:0 0 20px 165px; margin-top:-13px; color:#8a949c}
+.form-reset .bank-red{ color:#d56363}
+.form-reset .items li.txt{width:150px}
+.form-reset .tip-text{ left:195px}
+.form-reset .btn-submit{ padding-left:165px}
+.form-reset li.hg{ line-height:40px}
+.form-reset input{ color:#999}
+.arrow-down-ox{ position:absolute; top:5px; right:5px; width:30px; height:30px; background:#e8ecef; border-radius:5px}
+.arrow-down-ox b{ position:absolute; top:12px; left:9px; border-left:transparent solid 6px; border-right:transparent solid 6px; border-top:#565f66 solid 6px}
+
+/*----dingcunbaoV----*/
+.invest-plan li.col_2 b{ font-weight:normal; color:#475058}
+.invest-plan .col_1 .icons{margin:20px 0 0 2px}
+.loan-tum .head{height:50px;line-height:50px;background:#f0f5f7;border-bottom:1px solid #d3d8dc;padding:0 15px;position:relative}
+.loan-tum .head h2{font-size:16px;float:left;display:inline;position:relative}
+.loan-tum .head .icons{float:left;display:inline;margin:17px 0 0 3px}
+.loan-tum .head .r{float:right}
+
+.backele-v{ padding-left:20px}
+.backele-v .icons{ position:absolute; left:0; top:-1px}
+.plan-stats ins{ text-decoration:none; color:#fc8936}
+.none-v{ border-top:none}
+.loan-parame-post li{ position:relative}
+.loan-parame-post li .yhelp{ position:absolute; margin-left:3px; top:24px}
+.loan-no{ height:200px; margin-top:100px; text-align:center; color:#d35352}
+.invest-plan .title li.col_2{ color:#475058}
+

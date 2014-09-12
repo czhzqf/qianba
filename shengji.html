@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>钱吧系统升级中</title>
+<style type="text/css">
+	body,div,span,img,a { margin: 0; padding:0;}
+	body { font:12px/1.5 Tahoma,'hiragino Sans GB','microsoft yahei',sans-serif; color: #666; background-color: #003896; }
+	.qb_shengji {  margin: 50px auto 0; width:1200px; min-height: 410px; }
+	
+	.shengji-box { position: relative; margin: 0 auto;  width: 605px; height: 410px; background: url(images/shengji/shengji_bg.png) no-repeat;  }
+	.cheng { animation: rotate 8000ms linear infinite; -webkit-animation: rotate 8000ms linear infinite; -moz-animation: rotate 8000ms linear infinite; -ms-animation: rotate 8000ms linear infinite; 
+	
+	position: absolute; top: 230px; left: 117px; z-index: 10; width: 80px; height: 78px; background: url(images/shengji/cheng.png) no-repeat 0 0; }
+	.lv { animation: rotate-back 10000ms linear infinite; -webkit-animation: rotate-back 10000ms linear infinite; -moz-animation: rotate-back 10000ms linear infinite;-ms-animation: rotate-back 10000ms linear infinite; 
+	
+	position: absolute; top: 120px; left: 135px; width: 120px; height: 119px; background: url(images/shengji/lv.png) no-repeat 0 0; }
+	.bai { animation: rotate 8000ms linear infinite; -webkit-animation: rotate 8000ms linear infinite; -moz-animation: rotate 8000ms linear infinite; -ms-animation: rotate 8000ms linear infinite; 
+	
+	position: absolute; top: 115px; left: 260px; width: 113px; height: 112px; background: url(images/shengji/bai.png) no-repeat 0 0; }
+	.huang { animation: rotate-back 10000ms linear infinite; -webkit-animation: rotate-back 10000ms linear infinite; -moz-animation: rotate-back 10000ms linear infinite;-ms-animation: rotate-back 10000ms linear infinite; 
+	
+	position: absolute; top: 198px; left: 349px; width: 158px; height: 157px; background: url(images/shengji/huang.png) no-repeat 0 0; }
+
+	.bai-box { position: absolute; top: 207px; left: 173px; width: 199px; height: 260px; background: url(images/shengji/bai3.png) no-repeat 0 0; }
+	.lan { animation: rotate 8000ms linear infinite; -webkit-animation: rotate 8000ms linear infinite; -moz-animation: rotate 8000ms linear infinite; -ms-animation: rotate 8000ms linear infinite;
+
+ position: absolute; top: 23px; left: 22px; width: 132px; height: 131px; background: url(images/shengji/lan.png) no-repeat 0 0; }
+	.bai-small { animation: rotate 8000ms linear infinite; -webkit-animation: rotate 8000ms linear infinite; -moz-animation: rotate 8000ms linear infinite; -ms-animation: rotate 8000ms linear infinite; 
+	position: absolute; top: 183px; left: 122px; width: 70px; height: 69px; background: url(images/shengji/bai2.png) no-repeat 0 0; }
+	
+	
+	.shengji-logo { position: absolute; top: 73px; left: 62px; width: 52px; height: 30px; background: url(images/shengji/shengji-logo.png) no-repeat 0 0;  }
+	/*rotate*/
+	@keyframes "rotate" {
+	 from {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	 }
+	 to {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	 }
+	}
+	
+	@-moz-keyframes rotate {
+	 from {
+	   -moz-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -moz-transform: rotate(360deg);
+	   transform: rotate(360deg);
+	 }
+	}
+	
+	@-webkit-keyframes "rotate" {
+	 from {
+	   -webkit-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -webkit-transform: rotate(360deg);
+	   transform: rotate(360deg);
+	 }
+	}
+	
+	@-ms-keyframes "rotate" {
+	 from {
+	   -ms-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -ms-transform: rotate(360deg);
+	   transform: rotate(360deg);
+	 }
+	}
+	
+	@-o-keyframes "rotate" {
+	 from {
+	   -o-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -o-transform: rotate(360deg);
+	   transform: rotate(360deg);
+	 }
+	}
+	/*rotate-back*/
+	@keyframes "rotate-back" {
+	 from {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	 }
+	 to {
+		-webkit-transform: rotate(-360deg);
+		-moz-transform: rotate(-360deg);
+		-o-transform: rotate(-360deg);
+		-ms-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	 }
+	}
+	
+	@-moz-keyframes rotate-back {
+	 from {
+	   -moz-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -moz-transform: rotate(-360deg);
+	   transform: rotate(-360deg);
+	 }
+	}
+	
+	@-webkit-keyframes "rotate-back" {
+	 from {
+	   -webkit-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -webkit-transform: rotate(-360deg);
+	   transform: rotate(-360deg);
+	 }
+	}
+	
+	@-ms-keyframes "rotate-back" {
+	 from {
+	   -ms-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -ms-transform: rotate(-360deg);
+	   transform: rotate(-360deg);
+	 }
+	}
+	
+	@-o-keyframes "rotate-back" {
+	 from {
+	   -o-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -o-transform: rotate(-360deg);
+	   transform: rotate(-360deg);
+	 }
+	}
+	.tishi { margin: 20px auto 0; width: 1200px; text-align: center;  }
+	.tishi span { display: inline-block; font-size: 16px; color: #fff; }
+	.tishi span.tit { padding: 60px 0 30px; font-size: 38px; }
+
+</style>
+</head>
+
+<body>
+	<div class="qb_shengji">
+         <div class="shengji-box">
+         	<div class="cheng"></div>
+            <div class="lv"></div>
+            <div class="bai"></div>
+            <div class="huang"></div>
+            <div class="bai-box">
+            	<div class="lan"></div>
+                <div class="shengji-logo"></div>
+                <div class="bai-small"></div>
+            </div>
+         </div>
+    </div>
+    
+    <div class="tishi">
+    	 <span class="tit">服务器升级中,敬请期待</span><br />
+         <span>我们将于2014年6月26日17:00升级完成！</span>
+    </div>
+</body>
+</html>

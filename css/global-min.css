@@ -1,0 +1,39 @@
+#footer .cabout{height:70px;position:relative}
+#footer .cabout h2{float:left;display:inline;padding-top:15px}
+#footer .cabout li{float:left;display:inline;width:48px;height:48px;margin-left:30px;position:relative}
+#footer .cabout a{display:block;width:48px;height:48px;border-radius:50%;position:absolute;left:0;top:0;transition:all 0.6s cubic-bezier(0.34,0.67,0.17,0.95);background-color:#adb7be;background-color:transparent\9;background:url(../../../local/img/common/sprites.png) no-repeat -150px -209px\9}
+#footer .cabout a:hover{background-color:#adb7be;background-color:transparent\9;background-position:-100px -209px\9}
+#footer .cabout a:after{box-shadow:0 0 0 2px #adb7be}
+#footer .cabout a .icons{position:absolute;left:50%;top:50%}
+#footer .cabout a.weibo .icons{width:31px;height:26px;margin:-13px 0 0 -15px;background-position:-268px -60px}
+#footer .cabout a.weixin .icons{width:33px;height:25px;margin:-13px 0 0 -16px;background-position:-268px -88px}
+#footer .cabout a.tqq .icons{width:24px;height:24px;margin:-12px 0 0 -12px;background-position:-242px -69px}
+#footer .cabout a.ios .icons{width:25px;height:29px;margin:-16px 0 0 -12px;background-position:-586px -141px}
+#footer .cabout a.android .icons{width:24px;height:30px;margin:-15px 0 0 -12px;background-position:-612px -141px}
+#footer .cabout h2.app-lf{margin-left:100px}
+.hovereffect:after{top:-1px;left:-1px;padding:1px;position:absolute;width:100%;height:100%;border-radius:50%;content:'';-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-transition:-webkit-transform 0.2s,opacity 0.2s;-webkit-transform:scale(0.8);-moz-transition:-moz-transform 0.2s,opacity 0.2s;-moz-transform:scale(0.8);-ms-transform:scale(0.8);transition:transform 0.2s,opacity 0.2s;transform:scale(0.8);opacity:0}
+.hovereffect:hover:after{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);transform:scale(1);opacity:1}
+#footer .fico{height:40px;padding:15px 0 0 85px;position:relative;font-size:12px;color:#8a949c;line-height:1.4}
+#footer .fico .icons{width:81px;height:27px;background-position:-305px -206px;position:absolute;left:0;top:18px}
+#footer .fico .icons:hover{background-position:-305px -240px}
+#footer .read{font-size:12px;padding-top:5px;color:#8a949c}
+#footer .tm{background:url(../../../local/img/common/tm.png) no-repeat right 2px;padding-right:10px}
+#footer .foot-letter{padding-top:25px}
+#footer .foot-letter a{margin-right:15px}
+#footer a.footer-icp{color:#8a949c}
+#footer a.footer-icp:hover{color:#11405c;text-decoration:none}
+.dialog-main{background:#fff;width:400px;position:absolute;left:0;top:0;z-index:-1;display:none}
+
+.dialog-head{height:40px;line-height:40px;position:relative;padding:0 10px;font-size:14px;border-bottom:1px solid #e7ecee;cursor:move}
+.dialog-head h2 { font-size: 12px; font-weight: bold; line-height: 40px; }
+.dialog-head .closeModal{width:24px;height:24px;float:right;overflow:hidden;position:absolute;right:10px;top:8px;background:#e7ecee}
+.dialog-head .closeModal .icons{background: url(../images/close.png) no-repeat 0 0; text-indent: -9999px; width:8px;height:8px;position:absolute;left:50%;top:50%;margin:-4px 0 0 -4px}
+
+.dialog-foot{background:#e7ecee;height:50px;border-radius:0 0 3px 3px;position:relative}
+.dialog-foot .bank-action{float:left;position:relative;left:50%;padding-top:10px}
+.dialog-foot .bank-action a{padding:0 15px 0 25px;height:30px;line-height:30px;margin-right:10px;float:left;display:inline;white-space:nowrap;position:relative;left:-50%;overflow:hidden}
+.dialog-foot .bank-action .icons{position:absolute;left:13px;top:10px}
+.dialog-foot .bank-delete{background:#fff;color:#475058}
+.dialog-foot .bank-bind{background:#15456f;color:#fff}
+.dialog-foot .bank-bind:visited{color:#fff}
+

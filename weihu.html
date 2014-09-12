@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>钱吧系统维护中</title>
+<style type="text/css">
+	body,div,span,img,a { margin: 0; padding:0;}
+	body { font:12px/1.5 Tahoma,'hiragino Sans GB','microsoft yahei',sans-serif; color: #666; background-color: #003896; }
+	.qb-weihu { position: relative;  margin: 50px auto 0; width:1200px; min-height: 590px; text-align: center; }
+	
+	
+	.weihu-box { animation: rotate 8000ms linear infinite; -webkit-animation: rotate 8000ms linear infinite; -moz-animation: rotate 8000ms linear infinite; -ms-animation: rotate 8000ms linear infinite;  
+	 
+	 position: absolute; left: 308px; top: 0; width: 590px; height: 590px; background: url(images/weihu/weihu-box.png) no-repeat center center; }
+    .weihu-box01 { animation: rotate-back 10000ms linear infinite; -webkit-animation: rotate-back 10000ms linear infinite; -moz-animation: rotate-back 10000ms linear infinite;-ms-animation: rotate-back 10000ms linear infinite; 
+	
+	position: absolute; left: 308px; top: 0; width: 590px; height: 590px; background: url(images/weihu/weihu-box01.png) no-repeat center center; }
+
+	.weihu-box02 { 
+	
+	position: absolute; left: 308px; top: 0; width: 590px; height: 590px; background: url(images/weihu/weihu-box02.png) no-repeat center center; }
+	.weihu-box03 { animation: rotate 8000ms linear infinite; -webkit-animation: rotate 8000ms linear infinite; -moz-animation: rotate 8000ms linear infinite; -ms-animation: rotate 8000ms linear infinite;  
+	 
+	 position: absolute; left: 308px; top: 0; width: 590px; height: 590px; background: url(images/weihu/weihu-box03.png) no-repeat center center; }
+	 
+	 .weihu-box04 { z-index: 10; 
+	
+	position: absolute; left: 308px; top: 0; width: 590px; height: 590px; background: url(images/weihu/weihu-box04.png) no-repeat center center; }
+	 
+	 
+	/*rotate*/
+	@keyframes "rotate" {
+	 from {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	 }
+	 to {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+	 }
+	}
+	
+	@-moz-keyframes rotate {
+	 from {
+	   -moz-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -moz-transform: rotate(360deg);
+	   transform: rotate(360deg);
+	 }
+	}
+	
+	@-webkit-keyframes "rotate" {
+	 from {
+	   -webkit-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -webkit-transform: rotate(360deg);
+	   transform: rotate(360deg);
+	 }
+	}
+	
+	@-ms-keyframes "rotate" {
+	 from {
+	   -ms-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -ms-transform: rotate(360deg);
+	   transform: rotate(360deg);
+	 }
+	}
+	
+	@-o-keyframes "rotate" {
+	 from {
+	   -o-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -o-transform: rotate(360deg);
+	   transform: rotate(360deg);
+	 }
+	}
+	/*rotate-back*/
+	@keyframes "rotate-back" {
+	 from {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	 }
+	 to {
+		-webkit-transform: rotate(-360deg);
+		-moz-transform: rotate(-360deg);
+		-o-transform: rotate(-360deg);
+		-ms-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	 }
+	}
+	
+	@-moz-keyframes rotate-back {
+	 from {
+	   -moz-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -moz-transform: rotate(-360deg);
+	   transform: rotate(-360deg);
+	 }
+	}
+	
+	@-webkit-keyframes "rotate-back" {
+	 from {
+	   -webkit-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -webkit-transform: rotate(-360deg);
+	   transform: rotate(-360deg);
+	 }
+	}
+	
+	@-ms-keyframes "rotate-back" {
+	 from {
+	   -ms-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -ms-transform: rotate(-360deg);
+	   transform: rotate(-360deg);
+	 }
+	}
+	
+	@-o-keyframes "rotate-back" {
+	 from {
+	   -o-transform: rotate(0deg);
+	   transform: rotate(0deg);
+	 }
+	 to {
+	   -o-transform: rotate(-360deg);
+	   transform: rotate(-360deg);
+	 }
+	}
+
+	.tishi { margin: 0 auto; width: 1200px; text-align: center;  }
+	.tishi span { display: inline-block; font-size: 16px; color: #fff; }
+	.tishi span.tit { padding: 60px 0 30px; font-size: 38px; }
+
+</style>
+</head>
+
+<body>
+    <div class="qb-weihu">
+    	<div class="weihu-box"></div>
+        <div class="weihu-box01"></div>
+        <div class="weihu-box02"></div>
+        <div class="weihu-box03"></div>
+        <div class="weihu-box04"></div>
+    </div>
+	
+   
+   <div class="tishi">
+    	 <span class="tit">抱歉，服务器维护中!</span><br />
+         <span>我们将于2014年6月26日17:00维护完成！</span>
+    </div>
+</body>
+</html>
